@@ -13,7 +13,7 @@ path_fbel <- "../../datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv"
 path_cands <- "../../datasets/candidates/face_url_candidate.csv"
 path_pols <- "../../datasets/candidates/face_url_politician.csv"
 # Intermediary files
-path_intermediary_1 <- "../data/intermediate_separate_generic_absa.rdata"
+path_intermediary_1 <- "../data/intermediate_separate_generic_absa.rdata" # Note: used as an input in inference
 path_intermediary_2 <- "../data/intermediate_separate_generic_absa_training_data.rdata"
 # Output files
 path_output_train <- "../data/generic_separate_absa_train.csv"

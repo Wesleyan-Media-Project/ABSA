@@ -7,10 +7,10 @@ from sklearn import metrics
 from joblib import dump, load
 
 # Input data
-path_prepared_118m = '../../data/separate_generic_absa_random_forest_118m.csv'
+path_prepared_118m = "../../data/118m_prepared_for_ABSA.csv"
 path_model = '../../train/models/trained_absa_rf.joblib'
 # Output data
-path_predictions = '../../data/separate_generic_absa_random_forest_118m_with_pred.csv'
+path_predictions = '../../data/118m_ABSA_pred.csv'
 
 
 # Inference on the 1.18m dataset
