@@ -10,7 +10,7 @@ from joblib import dump, load
 path_prepared_118m = "../../data/118m_prepared_for_ABSA.csv"
 path_model = '../../train/models/trained_absa_rf.joblib'
 # Output data
-path_predictions = '../../data/118m_ABSA_pred.csv'
+path_predictions = '../../data/118m_ABSA_pred.csv.gz'
 
 
 # Inference on the 1.18m dataset
@@ -21,5 +21,5 @@ predicted118m = text_clf.predict(df_inf['text'])
 df_inf['predicted_sentiment'] = predicted118m
 
 # Save without text column
-df_inf = df_inf[['ad_id', 'predicted_sentiment']]
+df_inf = df_inf.drop(columns = 'text')
 df_inf.to_csv(path_predictions, index = False)
