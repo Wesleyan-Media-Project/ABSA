@@ -8,7 +8,7 @@ library(stringr)
 # Input paths
 path_intermediary_1 <- "../../../entity_linking_2022/facebook/data/entity_linking_results_fb22.csv.gz"
 # Output paths
-path_prepared_for_absa <- "../../data/118m_prepared_for_ABSA.csv"
+path_prepared_for_absa <- "../../data/fb2022_prepared_for_ABSA.csv"
 
 df <- fread(path_intermediary_1, encoding = "UTF-8")
 
@@ -32,4 +32,4 @@ df$chunk2 <- substr(df$text, df$text_end+1, nchar(df$text))
 df$text <- paste0(df$chunk1, "$T$", df$chunk2)
 df <- select(df, -c(chunk1, chunk2))
 
-fwrite(df, "../../data/fb2022_prepared_for_ABSA.csv")
+fwrite(df, path_prepared_for_absa)
