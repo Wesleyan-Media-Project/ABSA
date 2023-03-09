@@ -4,6 +4,7 @@ library(data.table)
 library(dplyr)
 library(tidyr)
 library(stringr)
+library(R.utils)
 
 # Input paths
 path_intermediary_1 <- "../../../entity_linking_2022/facebook/data/entity_linking_results_fb22.csv.gz"
