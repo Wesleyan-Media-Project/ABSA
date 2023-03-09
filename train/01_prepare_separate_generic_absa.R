@@ -181,4 +181,3 @@ fwrite(test, path_output_test)
 #   test_out <- c(test_out, test$text[i], train$CAND[i], round(as.numeric(test$TONE[i])))
 # }
 # writeLines(test_out, "data/generic_separate_absa_test.xml.seg")
-
