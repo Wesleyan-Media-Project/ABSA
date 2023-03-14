@@ -6,9 +6,8 @@ library(dplyr)
 
 
 # Input files
-path_el_results_with_text <- "../../entity_linking/facebook/data/entity_linking_results_118m_v3_500.csv"
-#path_el_results_without_text <- "../../entity_linking/facebook/data/entity_linking_results_118m_v3_500_notext.csv.gz"
-#path_fbel_old <- "../../datasets/facebook/FBEL_cleaned_noICR_120321.csv"
+path_el_results_with_text <- "../../entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz"
+path_ad_text <- "../../fb_2020/fb_2020_140m_adid_text_clean.csv.gz"
 path_fbel <- "../../datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv"
 path_cands <- "../../datasets/candidates/face_url_candidate.csv"
 path_pols <- "../../datasets/candidates/face_url_politician.csv"
@@ -20,9 +19,18 @@ path_output_train <- "../data/generic_separate_absa_train.csv"
 path_output_test <- "../data/generic_separate_absa_test.csv"
 
 # Read text in
-text <- fread(path_el_results_with_text,
+text <- fread(path_ad_text,
               encoding = "UTF-8",
               data.table = F)
+text <- text %>% rename(ocr = aws_ocr_text)
+text <- text %>% rename(asr = google_asr_text)
+text <- text %>% select(-ad_snapshot_url)
+# Read entity linking results
+el_results <- fread(path_el_results_with_text,
+                    encoding = "UTF-8",
+                    data.table = F)
+# Combine with text
+text <- left_join(text, el_results, by = "ad_id")
 
 fields <- names(text)[2:9]
 variations <- c("", "_detected_entities", "_start", "_end")

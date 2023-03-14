@@ -28,13 +28,13 @@ print(metrics.classification_report(df_test['TONE'], predicted))
 
 #               precision    recall  f1-score   support
 # 
-#           -1       0.77      0.89      0.82      1138
-#            0       0.90      0.26      0.40       134
-#            1       0.85      0.79      0.82      1211
+#           -1       0.80      0.89      0.84      1333
+#            0       0.82      0.31      0.45       121
+#            1       0.86      0.81      0.83      1312
 # 
-#     accuracy                           0.81      2483
-#    macro avg       0.84      0.65      0.68      2483
-# weighted avg       0.82      0.81      0.80      2483
+#     accuracy                           0.83      2766
+#    macro avg       0.83      0.67      0.71      2766
+# weighted avg       0.83      0.83      0.82      2766
 
 # Save model to disk
 dump(text_clf, path_model)
