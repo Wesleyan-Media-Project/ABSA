@@ -32,9 +32,10 @@ el_results <- fread(path_el_results_with_text,
 # Combine with text
 text <- left_join(text, el_results, by = "ad_id")
 
+# Convert the data of the different fields to long format
+# so rows are the ad_id-field level
 fields <- names(text)[2:9]
 variations <- c("", "_detected_entities", "_start", "_end")
-
 out <- list()
 for(i in 1:length(fields)){
   text2 <- text[c("ad_id", paste0(fields[i], variations))]
@@ -42,12 +43,10 @@ for(i in 1:length(fields)){
   text2$field <- fields[i]
   out[[i]] <- text2
 }
-
 df <- rbindlist(out)
-
 df <- df[df$detected_entities != "[]",]
 
-
+# Extract the character indices
 python_to_r_list <- function(x){
 
   x %>%
@@ -57,38 +56,15 @@ python_to_r_list <- function(x){
     str_split(",")
 
 }
-
 df$start <- python_to_r_list(df$start)
 df$end <- python_to_r_list(df$end)
 df$detected_entities <- python_to_r_list(df$detected_entities)
 
-out <- list()
-counter <- 1
-for(i in 1:nrow(df)){
-  for(j in 1:length(df$detected_entities[[i]])){
-    df3 <- data.frame(
-      ad_id = df$ad_id[i],
-      text = df$text[i],
-      detected_entities = df$detected_entities[[i]][j],
-      start = df$start[[i]][j],
-      end = df$end[[i]][j],
-      field = df$field[i]
-    )
-    out[[counter]] <- df3
-    counter <- counter + 1
-  }
-  
-  if (i %% 1000 == 0) {
-    print(i)
-  }
-  
-}
-df2 <- rbindlist(out)
-
-df2$detected_entities <- str_remove_all(df2$detected_entities, "'")
-df2$start <- as.numeric(df2$start)
-df2$end <- as.numeric(df2$end)
-df <- df2
+# One row per detected entity
+df <- unnest(df, c(detected_entities, start, end))
+df$detected_entities <- str_remove_all(df$detected_entities, "'")
+df$start <- as.numeric(df$start)
+df$end <- as.numeric(df$end)
 
 save(df, file = path_intermediary_1)
 
@@ -99,6 +75,7 @@ save(df, file = path_intermediary_1)
 paths <- ls() %>% .[str_detect(., "^path_")]
 rm(list = ls()[!ls() %in% paths])
 
+# Prepare the FBEL dataset
 df <- fread(path_fbel, data.table = F)
 df$ad_id <- str_remove(df$ad_id, "_")
 fecids <- fread(path_cands, data.table = F)
@@ -118,13 +95,11 @@ for(i in 1:length(cand_vars)){
   df[,candid_vars[i]] <- fecids$fec_id[match(as.character(df[,cand_vars[i]]), fecids$candidate)]
 }
 
-df <- select(df, c(cand_vars, candid_vars, tone_vars, ad_id))
+df <- select(df, all_of(c(cand_vars, candid_vars, tone_vars, "ad_id")))
 
 for(i in 1:length(tone_vars)){
   df[,tone_vars[i] == "In a way to show approval or suppor"] <- 1
 }
-
-#df$TONE1[df$TONE1 == "In a way to show approval or support"]
 
 df[df == "In a way to show approval or support"] <- 1
 df[df == "In a way to show disaproval or opposition"] <- -1
@@ -151,7 +126,13 @@ rm(list = ls()[!ls() %in% paths])
 load(path_intermediary_1)
 load(path_intermediary_2)
 
-df <- left_join(df, df2, by = c("ad_id" = "ad_id", "detected_entities" = "CAND_ID"))
+# There is one ad in the FBEL data with both a positive and negative reference to Kamala Harris
+# This appears to be a mistake, the ad is positive to her
+df2 <- df2[!(df2$ad_id == "x1001393136951873" & df2$CAND_ID == "WMPID2" & df2$TONE ==-1),]
+
+# Combine the 1.4m entity linking data
+# With the FBEL dataset
+df <- inner_join(df, df2, by = c("ad_id" = "ad_id", "detected_entities" = "CAND_ID"))
 
 # training data
 df_train <- df[is.na(df$TONE) == F,]
