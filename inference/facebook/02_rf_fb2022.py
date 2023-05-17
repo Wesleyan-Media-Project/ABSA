@@ -7,18 +7,18 @@ from sklearn import metrics
 from joblib import dump, load
 
 # Input data
-path_prepared_118m = "../../data/fb2022_prepared_for_ABSA.csv"
+path_prepared = "../../data/fb2022_prepared_for_ABSA.csv"
 path_model = '../../train/models/trained_absa_rf.joblib'
 # Output data
 path_predictions = '../../data/fb2022_ABSA_pred.csv.gz'
 
 
-# Inference on the 1.18m dataset
-df_inf = pd.read_csv(path_prepared_118m)
+# Inference on the fb22 dataset
+df_inf = pd.read_csv(path_prepared)
 text_clf = load(path_model)
-predicted118m = text_clf.predict(df_inf['text'])
+predicted = text_clf.predict(df_inf['text'])
 
-df_inf['predicted_sentiment'] = predicted118m
+df_inf['predicted_sentiment'] = predicted
 
 # Save without text column
 df_inf = df_inf.drop(columns = 'text')

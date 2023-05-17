@@ -19,8 +19,6 @@ df <- df %>% mutate(across(c(text_detected_entities, text_start, text_end), str_
 
 # Remove all ads with no detected entities
 df <- df %>% filter(text_detected_entities != "")
-# Split the Python-based id field
-df$id <- str_split(df$id, "\\|")
 
 # Unnest multiple detected entities
 df <- unnest(df, cols = c(text_detected_entities, text_start, text_end))
