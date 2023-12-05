@@ -34,8 +34,6 @@ This repo is part of the Preliminary Data Classification section.
 
 All the data including the ABSA results for the 1.4m dataset  `140m_ABSA_pred.csv.gz` are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
 
- can be found in data/140m_ABSA_pred.csv.gz
-
 ## Setup
 
 The scripts are numbered in the order in which they should be run. Scripts that directly depend on one another are ordered sequentially. Scripts with the same number are alternatives; usually they are the same scripts on different data, or with minor variations. The outputs of each script are saved, so it is possible to, for example, only run the inference script, since the model files are already present.
