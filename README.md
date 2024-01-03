@@ -42,7 +42,11 @@ There are separate folders for Facebook and Google. Within Facebook, the code ne
 
 For an example pipeline, training on 2020 Facebook, and then doing inference on 2020 Facebook, see `pipeline.sh`. This should take about 20 minutes to run on a laptop.
 
-Some scripts require datasets from the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo (which contains datasets that aren't created in any of the repos and intended to be used in more than one repo), the [fb_2020](https://github.com/Wesleyan-Media-Project/fb_2020) repo (containing 2020 ad text and metadata), and the [entity linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo. Those repos are assumed to be cloned into the same top-level folder as the ABSA repo.
+The scripts `inference/facebook/01_prepare_fb_2022.R` and `inference/google/01_prepare_google_2022.R` require the [entity_linking_2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022) repo.
+
+The script `inference/google/01_prepare_google_2020.R` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo.
+
+The script `train/01_prepare_separate_generic_absa.R requires` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo, as well as the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo. It also requires fb_2020_140m_adid_text_clean.csv.gz, which will be accessible through Figma. 
 
 ### Requirements
 
