@@ -46,7 +46,7 @@ The scripts `inference/facebook/01_prepare_fb_2022.R` and `inference/google/01_p
 
 The script `inference/google/01_prepare_google_2020.R` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo.
 
-The script `train/01_prepare_separate_generic_absa.R requires` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo, as well as the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo. It also requires fb_2020_140m_adid_text_clean.csv.gz, which will be accessible through Figma. 
+The script `train/01_prepare_separate_generic_absa.R requires` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo, as well as the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo. It also requires fb_2020_140m_adid_text_clean.csv.gz, which will be accessible through Figshare. 
 
 ### Requirements
 
