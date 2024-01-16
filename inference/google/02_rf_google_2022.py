@@ -8,8 +8,8 @@ from joblib import dump, load
 import pickle
 
 # Input data
-path_prepared_google_2022 = "./data/google2022_prepared_for_ABSA.csv"
-path_model = './train/models/trained_absa_rf_2022.joblib'
+path_prepared_google_2022 = "../../data/google2022_prepared_for_ABSA.csv"
+path_model = '../../train/models/trained_absa_rf_2022.joblib'
 # Output data
 path_predictions = './data/google_2022_ABSA_pred.csv.gz'
 
