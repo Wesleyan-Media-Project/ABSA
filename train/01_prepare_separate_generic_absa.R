@@ -7,11 +7,15 @@ library(dplyr)
 
 # Input files
 path_el_results_with_text <- "../../entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz"
+
+# output from fb_2020 repo 
 path_ad_text <- "../../fb_2020/fb_2020_140m_adid_text_clean.csv.gz"
 path_fbel <- "../../datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv"
 path_cands <- "../../datasets/candidates/face_url_candidate.csv"
 path_pols <- "../../datasets/candidates/face_url_politician.csv"
 # Intermediary files
+
+# output from data repo
 path_intermediary_1 <- "../data/intermediate_separate_generic_absa.rdata" # Note: used as an input in inference
 path_intermediary_2 <- "../data/intermediate_separate_generic_absa_training_data.rdata"
 # Output files
