@@ -3,7 +3,7 @@ library(tidyr)
 library(stringi)
 library(stringr)
 library(dplyr)
-
+library(arrow)
 
 # Input files
 path_el_results_with_text <- "../../entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz"
@@ -16,7 +16,7 @@ path_pols <- "../../datasets/candidates/face_url_politician.csv"
 # Intermediary files
 
 # output from data repo
-path_intermediary_1 <- "../data/intermediate_separate_generic_absa.rdata" # Note: used as an input in inference
+path_intermediary_1 <- "../data/intermediate_separate_generic_absa.parquet" # Note: used as an input in inference
 path_intermediary_2 <- "../data/intermediate_separate_generic_absa_training_data.rdata"
 # Output files
 path_output_train <- "../data/generic_separate_absa_train.csv"
@@ -70,7 +70,7 @@ df$detected_entities <- str_remove_all(df$detected_entities, "'")
 df$start <- as.numeric(df$start)
 df$end <- as.numeric(df$end)
 
-save(df, file = path_intermediary_1)
+write_dataset(df, path_intermediary_1, max_rows_per_file = 500000)
 
 #----
 # End of the part that's shared with creating the inference set
