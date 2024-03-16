@@ -154,8 +154,8 @@ set.seed(123)
 train <- sample(rec_nums, round(0.7*length(rec_nums)))
 test <- rec_nums[!rec_nums %in% train]
 
-train <- df_train[df_train$ad_id %in% train]
-test <- df_train[df_train$ad_id %in% test]
+train <- df_train[df_train$ad_id %in% train,]
+test <- df_train[df_train$ad_id %in% test,]
 
 fwrite(train, path_output_train)
 fwrite(test, path_output_test)
