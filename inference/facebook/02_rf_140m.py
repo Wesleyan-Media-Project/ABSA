@@ -7,7 +7,7 @@ from sklearn import metrics
 from joblib import dump, load
 
 # Input data
-path_prepared_140m = "../../data/140m_prepared_for_ABSA.csv"
+path_prepared_140m = "../../data/140m_prepared_for_ABSA.csv.gz"
 path_model = '../../train/models/trained_absa_rf.joblib'
 # Output data
 path_predictions = '../../data/140m_ABSA_pred.csv.gz'
