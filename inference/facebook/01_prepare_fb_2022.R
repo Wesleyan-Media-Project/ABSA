@@ -32,9 +32,3 @@ df$text <- paste0(df$chunk1, "$T$", df$chunk2)
 df <- select(df, -c(chunk1, chunk2))
 
 fwrite(df, path_prepared_for_absa)
-
-
-# Input paths
-path_intermediary_1 <- "data/fb2022_ABSA_pred.csv.gz"
-
-df <- fread(path_intermediary_1, encoding = "UTF-8")
