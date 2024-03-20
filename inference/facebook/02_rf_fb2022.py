@@ -5,17 +5,16 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn import metrics
 from joblib import dump, load
-from pyarrow import parquet as pq
 
 # Input data
-path_prepared = "../../data/fb2022_prepared_for_ABSA.parquet"
-path_model = '../../train/models/trained_absa_rf.joblib'
+path_prepared = "./data/fb2022_prepared_for_ABSA.csv"
+path_model = './train/models/trained_absa_rf_2022.joblib'
 # Output data
-path_predictions = '../../data/fb2022_ABSA_pred.csv.gz'
+path_predictions = './data/fb2022_ABSA_pred.csv.gz'
 
 
 # Inference on the fb22 dataset
-df_inf = df_inf = pq.read_table(path_prepared).to_pandas()
+df_inf = pd.read_csv(path_prepared)
 text_clf = load(path_model)
 predicted = text_clf.predict(df_inf['text'])
 
