@@ -8,9 +8,9 @@ library(R.utils)
 library(tidyverse)
 
 # Input paths
-path_intermediary_1 <- "../../../entity_linking_2022/google/data/entity_linking_results_google_2022.csv.gz"
+path_intermediary_1 <- "../entity_linking_2022/google/data/entity_linking_results_google_2022.csv.gz"
 # Output paths
-path_prepared_for_absa <- "../data/google2022_prepared_for_ABSA.csv"
+path_prepared_for_absa <- "data/google2022_prepared_for_ABSA.csv"
 
 
 
