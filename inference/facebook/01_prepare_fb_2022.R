@@ -7,7 +7,7 @@ library(stringr)
 library(R.utils)
 
 # Input paths
-path_intermediary_1 <- "../entity_linking_2022/facebook/data/entity_linking_results_fb22_new.csv.gz"
+path_intermediary_1 <- "../entity_linking_2022/facebook/data/entity_linking_results_fb22.csv.gz"
 # Output paths
 path_prepared_for_absa <- "data/fb2022_prepared_for_ABSA.csv"
 
