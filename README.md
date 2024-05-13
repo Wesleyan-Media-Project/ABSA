@@ -1,25 +1,27 @@
 
 # Wesleyan Media Project - Aspect Based Sentiment Analysis (ABSA)
 
-Welcome! This repo is a part of the Cross-platform Election Advertising Transparency initiative ([CREATIVE](https://www.creativewmp.com/)) project. CREATIVE is a joint infrastructure project of WMP and privacy-tech-lab at Wesleyan University. CREATIVE provides cross-platform integration and standardization of political ads collected from Google and Facebook. You will also need the repo [datasets](https://github.com/Wesleyan-Media-Project/datasets), [fb_2020](https://github.com/Wesleyan-Media-Project/fb_2022) and [entity linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo to run the script.
+Welcome! This repo contains scripts which predict sentiment towards entities within political ads using Aspect-Based Sentiment Analysis (ABSA).  
+
+This repo is a part of the Cross-platform Election Advertising Transparency initiative ([CREATIVE](https://www.creativewmp.com/)) project. CREATIVE is an academic research project that has the goal of providing the public with analysis tools for more transparency of political ads across online platforms. In particular, CREATIVE provides cross-platform integration and standardization of political ads collected from Google and Facebook. CREATIVE is a joint project of the [Wesleyan Media Project (WMP)](https://mediaproject.wesleyan.edu/) and the [privacy-tech-lab](https://privacytechlab.org/) at [Wesleyan University](https://www.wesleyan.edu).
+
 
 This repo is a part of the Data Classification step.
 ![A picture of the repo pipeline with this repo highlighted](CREATIVE_step3_032524.png)
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Objective](#objective)
-- [Data](#data)
-- [Setup](#setup)
-  - [Requirements](#requirements)
-  - [Training](#training)
+[1. Introduction](#introduction)<br>
+[2. Objective](#objective)<br>
+[3. Data](#data)<br>
+[4. Setup](#setup)<br>
+[5. Thank You!](#thank-you)<br>
 
-## Introduction
+## 1. Introduction
 
-This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the [entity linker](https://github.com/Wesleyan-Media-Project/entity_linking) (see [here](https://github.com/Wesleyan-Media-Project/entity_linking_2022) for the 2022 entity linker). Each identified entity mention has its own ABSA prediction, so that it is (theoretically) possible for an ad to discuss a candidate positively in one place, and negatively in another. The model used in this repo is a random forest. See [here](https://github.com/markusneumann/ABSA-PyTorch) for our repo using a BERT-based model, which is a fork of [this](https://github.com/songyouwei/ABSA-PyTorch) repo (the main difference is that it assumes a binary rather than three-class multinomial model).
+This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the [entity linker](https://github.com/Wesleyan-Media-Project/entity_linking) (see [here](https://github.com/Wesleyan-Media-Project/entity_linking_2022) for the 2022 entity linker). Each identified entity mention has its own ABSA prediction, so that it is (theoretically) possible for an ad to discuss a candidate positively in one place, and negatively in another. The model used in this repo is a random forest.
 
-## Objective
+## 2. Objective
 
 Each of our repos belongs to one or more of the following categories:
 
@@ -30,11 +32,11 @@ Each of our repos belongs to one or more of the following categories:
 
 This repo is part of the Data Classification section.
 
-## Data
+## 3. Data
 
 All the data including the ABSA results for the 1.4m dataset  `140m_ABSA_pred.csv.gz` are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
 
-## Setup
+## 4. Setup
 
 The scripts are numbered in the order in which they should be run. Scripts that directly depend on one another are ordered sequentially. Scripts with the same number are alternatives; usually they are the same scripts on different data, or with minor variations. The outputs of each script are saved, so it is possible to, for example, only run the inference script, since the model files are already present.
 
@@ -56,3 +58,34 @@ The scripts use both R (4.2.2) and Python (3.9.16). The packages we used are des
 
 To train the model to detect sentiment even for entities that aren't seen (or rarely seen) in the training set, the data is set up as following: The specific name of the detected entity is replaced by `$T$` (this is the same way it works in [this](https://github.com/songyouwei/ABSA-PyTorch) repo). This way, the model learns that the output label is based on text that relates to the `$T$`. In theory, a neural-based classifier should be much better at this than a bag-of-words model, but in practice, the latter works well enough. We saw a big difference with a model that only learned and detected sentiment for Trump and Biden - the neural approach was much better here - but for a model targeted at any generic candidate, the bag of words model has results that are comparably good.
 
+## 5. Thank You
+
+<p align="center"><strong>We would like to thank our financial supporters!</strong></p><br>
+
+<p align="center">This material is based upon work supported by the National Science Foundation under Grant Numbers 2235006, 2235007, and 2235008.</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2235006">
+    <img class="img-fluid" src="nsf.png" height="150px" alt="National Science Foundation Logo">
+  </a>
+</p>
+
+<p align="center">The Cross-Platform Election Advertising Transparency Initiative (CREATIVE) is a joint infrastructure project of the Wesleyan Media Project and privacy-tech-lab at Wesleyan University in Connecticut.
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://www.creativewmp.com/">
+    <img class="img-fluid" src="CREATIVE_logo.png"  width="220px" alt="CREATIVE Logo">
+  </a>
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://mediaproject.wesleyan.edu/">
+    <img src="wmp-logo.png" width="218px" height="100px" alt="Wesleyan Media Project logo">
+  </a>
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://privacytechlab.org/" style="margin-right: 20px;">
+    <img src="./plt_logo.png" width="200px" alt="privacy-tech-lab logo">
+  </a>
+</p>
