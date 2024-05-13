@@ -6,37 +6,24 @@ Welcome! This repo contains scripts which predict sentiment towards entities wit
 This repo is a part of the Cross-platform Election Advertising Transparency initiative ([CREATIVE](https://www.creativewmp.com/)) project. CREATIVE is an academic research project that has the goal of providing the public with analysis tools for more transparency of political ads across online platforms. In particular, CREATIVE provides cross-platform integration and standardization of political ads collected from Google and Facebook. CREATIVE is a joint project of the [Wesleyan Media Project (WMP)](https://mediaproject.wesleyan.edu/) and the [privacy-tech-lab](https://privacytechlab.org/) at [Wesleyan University](https://www.wesleyan.edu).
 
 
-This repo is a part of the Data Classification step.
-![A picture of the repo pipeline with this repo highlighted](CREATIVE_step3_032524.png)
+To analyze the different dimensions of political ad transparency we have developed an analysis pipeline. The scripts in this repo are part of the Data Classification Step in our pipeline. ![A picture of the repo pipeline with this repo highlighted](CREATIVE_step3_032524.png)
 
 ## Table of Contents
 
 [1. Introduction](#introduction)<br>
-[2. Objective](#objective)<br>
-[3. Data](#data)<br>
-[4. Setup](#setup)<br>
-[5. Thank You!](#thank-you)<br>
+[2. Data](#data)<br>
+[3. Setup](#setup)<br>
+[4. Thank You!](#thank-you)<br>
 
 ## 1. Introduction
 
 This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the [entity linker](https://github.com/Wesleyan-Media-Project/entity_linking) (see [here](https://github.com/Wesleyan-Media-Project/entity_linking_2022) for the 2022 entity linker). Each identified entity mention has its own ABSA prediction, so that it is (theoretically) possible for an ad to discuss a candidate positively in one place, and negatively in another. The model used in this repo is a random forest.
 
-## 2. Objective
-
-Each of our repos belongs to one or more of the following categories:
-
-- Data Collection
-- Data Processing
-- Data Classification
-- Compiled Final Data 
-
-This repo is part of the Data Classification section.
-
-## 3. Data
+## 2. Data
 
 All the data including the ABSA results for the 1.4m dataset  `140m_ABSA_pred.csv.gz` are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
 
-## 4. Setup
+## 3. Setup
 
 The scripts are numbered in the order in which they should be run. Scripts that directly depend on one another are ordered sequentially. Scripts with the same number are alternatives; usually they are the same scripts on different data, or with minor variations. The outputs of each script are saved, so it is possible to, for example, only run the inference script, since the model files are already present.
 
@@ -58,7 +45,7 @@ The scripts use both R (4.2.2) and Python (3.9.16). The packages we used are des
 
 To train the model to detect sentiment even for entities that aren't seen (or rarely seen) in the training set, the data is set up as following: The specific name of the detected entity is replaced by `$T$` (this is the same way it works in [this](https://github.com/songyouwei/ABSA-PyTorch) repo). This way, the model learns that the output label is based on text that relates to the `$T$`. In theory, a neural-based classifier should be much better at this than a bag-of-words model, but in practice, the latter works well enough. We saw a big difference with a model that only learned and detected sentiment for Trump and Biden - the neural approach was much better here - but for a model targeted at any generic candidate, the bag of words model has results that are comparably good.
 
-## 5. Thank You
+## 4. Thank You
 
 <p align="center"><strong>We would like to thank our financial supporters!</strong></p><br>
 
