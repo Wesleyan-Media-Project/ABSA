@@ -1,27 +1,25 @@
+# CREATIVE --- Aspect Based Sentiment Analysis (ABSA)
 
-# Wesleyan Media Project - Aspect Based Sentiment Analysis (ABSA)
+Welcome! This repo contains scripts for predicting sentiment towards entities within political ads using Aspect-Based Sentiment Analysis (ABSA).
 
-Welcome! This repo contains scripts which predict sentiment towards entities within political ads using Aspect-Based Sentiment Analysis (ABSA).  
+This repo is part of the Cross-platform Election Advertising Transparency initiative ([CREATIVE](https://www.creativewmp.com/)) project. CREATIVE is an academic research project that has the goal of providing the public with analysis tools for more transparency of political ads across online platforms. In particular, CREATIVE provides cross-platform integration and standardization of political ads collected from Google and Facebook. CREATIVE is a joint project of the [Wesleyan Media Project (WMP)](https://mediaproject.wesleyan.edu/) and the [privacy-tech-lab](https://privacytechlab.org/) at [Wesleyan University](https://www.wesleyan.edu).
 
-This repo is a part of the Cross-platform Election Advertising Transparency initiative ([CREATIVE](https://www.creativewmp.com/)) project. CREATIVE is an academic research project that has the goal of providing the public with analysis tools for more transparency of political ads across online platforms. In particular, CREATIVE provides cross-platform integration and standardization of political ads collected from Google and Facebook. CREATIVE is a joint project of the [Wesleyan Media Project (WMP)](https://mediaproject.wesleyan.edu/) and the [privacy-tech-lab](https://privacytechlab.org/) at [Wesleyan University](https://www.wesleyan.edu).
-
-
-To analyze the different dimensions of political ad transparency we have developed an analysis pipeline. The scripts in this repo are part of the Data Classification Step in our pipeline. ![A picture of the repo pipeline with this repo highlighted](CREATIVE_step3_032524.png)
+To analyze the different dimensions of political ad transparency we have developed an analysis pipeline. The scripts in this repo are part of the Data Classification step in our pipeline. ![A picture of the repo pipeline with this repo highlighted](CREATIVE_step3_032524.png)
 
 ## Table of Contents
 
-[1. Introduction](#introduction)<br>
-[2. Data](#data)<br>
-[3. Setup](#setup)<br>
-[4. Thank You!](#thank-you)<br>
+[1. Introduction](#1-introduction)  
+[2. Data](#2-data)  
+[3. Setup](#3-setup)  
+[4. Thank You!](#4-thank-you)
 
 ## 1. Introduction
 
-This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the [entity linker](https://github.com/Wesleyan-Media-Project/entity_linking) (see [here](https://github.com/Wesleyan-Media-Project/entity_linking_2022) for the 2022 entity linker). Each identified entity mention has its own ABSA prediction, so that it is (theoretically) possible for an ad to discuss a candidate positively in one place, and negatively in another. The model used in this repo is a random forest.
+This repo contains scripts for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the [entity linker](https://github.com/Wesleyan-Media-Project/entity_linking) (see [here for the 2022 entity linker](https://github.com/Wesleyan-Media-Project/entity_linking_2022)). Each identified entity mention has its own ABSA prediction. Thus, it is (theoretically) possible for an ad to discuss a candidate positively in one place and negatively in another. The model used in this repo is a random forest classifier.
 
 ## 2. Data
 
-All the data including the ABSA results for the 1.4m dataset  `140m_ABSA_pred.csv.gz` are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
+All the data including the ABSA results for the 1.4m dataset `140m_ABSA_pred.csv.gz` are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
 
 ## 3. Setup
 
@@ -35,19 +33,19 @@ The scripts `inference/facebook/01_prepare_fb_2022.R` and `inference/google/01_p
 
 The script `inference/google/01_prepare_google_2020.R` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo.
 
-The script `train/01_prepare_separate_generic_absa.R requires` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo, as well as the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo. It also requires fb_2020_140m_adid_text_clean.csv.gz, which will be accessible through Figshare. 
+The script `train/01_prepare_separate_generic_absa.R requires` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo, as well as the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo. It also requires fb_2020_140m_adid_text_clean.csv.gz, which will be accessible through Figshare.
 
-### Requirements
+### 3.1 Requirements
 
 The scripts use both R (4.2.2) and Python (3.9.16). The packages we used are described in requirements_r.txt and requirements_py.txt.
 
-### Training
+### 3.2 Training
 
 To train the model to detect sentiment even for entities that aren't seen (or rarely seen) in the training set, the data is set up as following: The specific name of the detected entity is replaced by `$T$` (this is the same way it works in [this](https://github.com/songyouwei/ABSA-PyTorch) repo). This way, the model learns that the output label is based on text that relates to the `$T$`. In theory, a neural-based classifier should be much better at this than a bag-of-words model, but in practice, the latter works well enough. We saw a big difference with a model that only learned and detected sentiment for Trump and Biden - the neural approach was much better here - but for a model targeted at any generic candidate, the bag of words model has results that are comparably good.
 
 ## 4. Thank You
 
-<p align="center"><strong>We would like to thank our financial supporters!</strong></p><br>
+<p align="center"><strong>We would like to thank our supporters!</strong></p><br>
 
 <p align="center">This material is based upon work supported by the National Science Foundation under Grant Numbers 2235006, 2235007, and 2235008.</p>
 
