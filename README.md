@@ -19,29 +19,40 @@ This repo contains scripts for the Aspect-Based Sentiment Analysis (ABSA) to pre
 
 ## 2. Data
 
-All the data including the ABSA results for the 1.4m dataset `140m_ABSA_pred.csv.gz` are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
+The input data for the ABSA classification come from the entity linking. Thus, you need to grab the following files in order to run our scripts:
+
+- For [Facebook 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/facebook/data/entity_linking_results_fb22.csv.gz)
+- For [Google 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/google/data/entity_linking_results_google_2022.csv.gz) 
+
+All the output data for the ABSA results are stored in the `data` folder. They are in `csv.gz` and `csv` format. The training model is stored in the train/models folder in `joblib` format.
 
 ## 3. Setup
 
-The scripts are numbered in the order in which they should be run. Scripts that directly depend on one another are ordered sequentially. Scripts with the same number are alternatives; usually they are the same scripts on different data, or with minor variations. The outputs of each script are saved, so it is possible to, for example, only run the inference script, since the model files are already present.
-
-There are separate folders for Facebook and Google. Within Facebook, the code needs to be run in the order of knowledge base, training, and then inference.
-
-For an example pipeline, training on 2020 Facebook, and then doing inference on 2020 Facebook, see `pipeline.sh`. This should take about 20 minutes to run on a laptop.
-
-The scripts `inference/facebook/01_prepare_fb_2022.R` and `inference/google/01_prepare_google_2022.R` require the [entity_linking_2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022) repo.
-
-The script `inference/google/01_prepare_google_2020.R` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo.
-
-The script `train/01_prepare_separate_generic_absa.R requires` requires the [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking) repo, as well as the [datasets](https://github.com/Wesleyan-Media-Project/datasets) repo. It also requires fb_2020_140m_adid_text_clean.csv.gz, which will be accessible through Figshare.
+The scripts are numbered in the order in which they should be run. Scripts that directly depend on one another are ordered sequentially. Scripts with the same number are alternatives; usually they are the same scripts on different data. There are separate folders for Facebook and Google.
 
 ### 3.1 Requirements
 
-The scripts use both R (4.2.2) and Python (3.9.16). The packages we used are described in requirements_r.txt and requirements_py.txt.
+The scripts are tested on on R 4.2, 4.3, 4.4 and Python 3.9, 3.10. The packages we used are described in requirements_r.txt and requirements_py.txt.
+
+(ADD SETUP STEPS FOR R AND PYTHON)
 
 ### 3.2 Training
 
+Note: If you want to use the pre-trained model we provide, you can find it [here](https://github.com/Wesleyan-Media-Project/ABSA/blob/main/train/models/trained_absa_rf.joblib).
+
+To run the inference scripts, you need to first train a model for sentiment analysis. The script `train/01_prepare_separate_generic_absa.R` is used for this model training. The data you need to run this are:
+
+- [`entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz`](https://github.com/Wesleyan-Media-Project/entity_linking/blob/main/facebook/data/entity_linking_results_140m_notext_new.csv.gz)
+- [`fb_2020/fb_2020_140m_adid_text_clean.csv.gz`](INSERT FIGSHARE LINK ONCE READY)
+- [`datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/facebook/FBEL_2.0_cleanednoICR_041222.csv)
+- [`datasets/candidates/face_url_candidate.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/candidates/face_url_candidate.csv)
+- [`datasets/candidates/face_url_politician.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/candidates/face_url_politician.csv)
+
 To train the model to detect sentiment even for entities that aren't seen (or rarely seen) in the training set, the data is set up as following: The specific name of the detected entity is replaced by `$T$` (this is the same way it works in [this](https://github.com/songyouwei/ABSA-PyTorch) repo). This way, the model learns that the output label is based on text that relates to the `$T$`. In theory, a neural-based classifier should be much better at this than a bag-of-words model, but in practice, the latter works well enough. We saw a big difference with a model that only learned and detected sentiment for Trump and Biden - the neural approach was much better here - but for a model targeted at any generic candidate, the bag of words model has results that are comparably good.
+
+### 3.3 Inference
+
+Once you have the model, you can run the inference scripts. These scripts are located [here for Facebook](https://github.com/Wesleyan-Media-Project/ABSA/tree/main/inference/facebook) and [here for Google](https://github.com/Wesleyan-Media-Project/ABSA/tree/main/inference/google). There are two main scripts for each. First, we prepare the data for the sentiment analysis and second, this prepared data is run trhough the trained model to produce the classification results.
 
 ## 4. Thank You
 
