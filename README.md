@@ -30,7 +30,7 @@ All the output data for the ABSA results are stored in the `data` folder. They a
 
 The scripts are numbered in the order in which they should be run. Scripts that directly depend on one another are ordered sequentially. Scripts with the same number are alternatives; usually they are the same scripts on different data. There are separate folders for Facebook and Google.
 
-### ### 3.1 Install R and Packages
+### 3.1 Install R and Packages
 
 1. First, make sure you have R installed. While R can be run from the terminal, many people find it easier to use RStudio along with R. Here is a [tutorial for setting up R and RStudio](https://rstudio-education.github.io/hopr/starting.html). The scripts are tested on R 4.2, 4.3, and 4.4.
 
