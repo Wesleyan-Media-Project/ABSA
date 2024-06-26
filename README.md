@@ -96,19 +96,19 @@ Once you have the model, you can run the inference scripts. These scripts are lo
 ## 4. Directory Contents 
 THIS NEEDS TO BE LOOKED OVER
 * `data/140m_prepared_for_ABSA.parquet` : 5 files of data from the 140m dataset, which contains 140 million political ads for the 2020 election cycle sourced from Facebook, prepared so that our Aspect-Based Sentiment Analysis scripts can be run on them. MAKE SURE THIS DESCRIPTION IS CORRECT. 
-* data/intermediate_separate_generic_absa.parquet : This is used when we are training a model for sentiment analysis. 5 files of data. 
-* data/140m_ABSA_pred.csv.gz : ABSA predictions for the 140m dataset.
-* data/fb2022_ABSA_pred.csv.gz : ABSA predictions for [Facebook 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/facebook/data/entity_linking_results_fb22.csv.gz)
-* data/generic_separate_absa_test.csv : testing data for generic_separate_absa_train, our model for sentiment analysis.
-* data/generic_separate_absa_train.csv : training data for generic_separate_absa_train, our model for sentiment analysis.
-* data/google2020_prepared_for_ABSA.csv : Google 2020 data prepared for Aspect-Based Sentiment Analysis scripts to be run on them.
-* data/google_2020_ABSA_pred.csv.gz : ABSA predictions for [Google 2020[(https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/google/data/entity_linking_results_google_2020.csv.gz) data.
-* data/google_2022_ABSA_pred.csv.gz : ABSA predictions for [Google 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/google/data/entity_linking_results_google_2022.csv.gz) data.
-* data/intermediate_separate_generic_absa_training_data.rdata : Training data used for generic_separate_absa_train, our model for sentiment analysis.
-* inference : A folder with scripts that prepare for and run ABSA inference. Divided into subfolders for Facebook and Google.
-* train/models/trained_absa_rf.joblib : pretrained Aspect Based Sentiment Analysis (ABSA) model.
-* train/01_prepare_separate_generic_absa.R : Script which prepares for training our model for sentiment analysis. 
-* train/02_train_rf.py : Script which trains our model for sentiment analysis. 
+* `data/intermediate_separate_generic_absa.parquet` : 5 files of data, used when training a model for sentiment analysis. 
+* `data/140m_ABSA_pred.csv.gz` : ABSA predictions for the 140m dataset.
+* `data/fb2022_ABSA_pred.csv.gz` : ABSA predictions for [Facebook 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/facebook/data/entity_linking_results_fb22.csv.gz)
+* `data/generic_separate_absa_test.csv` : Testing data for model for sentiment analysis.
+* `data/generic_separate_absa_train.csv` : Training data model for sentiment analysis.
+* `data/google2020_prepared_for_ABSA.csv` : Google 2020 data prepared for Aspect-Based Sentiment Analysis scripts to be run on them.
+* `data/google_2020_ABSA_pred.csv.gz` : ABSA predictions for [Google 2020](https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/google/data/entity_linking_results_google_2020.csv.gz) data.
+* `data/google_2022_ABSA_pred.csv.gz` : ABSA predictions for [Google 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/google/data/entity_linking_results_google_2022.csv.gz) data.
+* `data/intermediate_separate_generic_absa_training_data.rdata` : Training data used model for sentiment analysis.
+* `inference` : A folder with scripts that prepare for and run ABSA inference. Divided into subfolders for Facebook and Google.
+* `train/models/trained_absa_rf.joblib` : Pretrained Aspect Based Sentiment Analysis (ABSA) model.
+* `train/01_prepare_separate_generic_absa.R` : Script which prepares for training model for sentiment analysis. 
+* `train/02_train_rf.py` : Script which trains model for sentiment analysis. 
 
 ## 5. Thank You
 
