@@ -95,7 +95,7 @@ Once you have the model, you can run the inference scripts. These scripts are lo
 
 ## 4. Directory Contents 
 THIS NEEDS TO BE LOOKED OVER
-* `data/140m_prepared_for_ABSA.parquet` : 5 files of data from the 140m dataset, which contains 140 million political ads for the 2020 election cycle sourced from Facebook, prepared so that our Aspect-Based Sentiment Analysis scripts can be run on them. MAKE SURE THIS DESCRIPTION IS CORRECT. 
+* `data/140m_prepared_for_ABSA.parquet` : 5 files of data from the 140m dataset prepared so that our Aspect-Based Sentiment Analysis scripts can be run on them. 
 * `data/intermediate_separate_generic_absa.parquet` : 5 files of data, used when training a model for sentiment analysis. 
 * `data/140m_ABSA_pred.csv.gz` : ABSA predictions for the 140m dataset.
 * `data/fb2022_ABSA_pred.csv.gz` : ABSA predictions for [Facebook 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022/blob/main/facebook/data/entity_linking_results_fb22.csv.gz)
@@ -107,8 +107,8 @@ THIS NEEDS TO BE LOOKED OVER
 * `data/intermediate_separate_generic_absa_training_data.rdata` : Training data used model for sentiment analysis.
 * `inference` : A folder with scripts that prepare for and run ABSA inference. Divided into subfolders for Facebook and Google.
 * `train/models/trained_absa_rf.joblib` : Pretrained Aspect Based Sentiment Analysis (ABSA) model.
-* `train/01_prepare_separate_generic_absa.R` : Script which prepares for training model for sentiment analysis. MAKE SURE THIS IS CORRECT
-* `train/02_train_rf.py` : Script which trains model for sentiment analysis. MAKE SURE THIS IS CORRECT
+* `train/01_prepare_separate_generic_absa.R` : Script which prepares for training model for sentiment analysis. 
+* `train/02_train_rf.py` : Script which trains model for sentiment analysis. 
 
 ## 5. Thank You
 
