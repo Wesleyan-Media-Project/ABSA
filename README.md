@@ -15,7 +15,7 @@ To analyze the different dimensions of political ad transparency we have develop
 
 ## 1. Introduction
 
-This repo contains scripts for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the [entity linker](https://github.com/Wesleyan-Media-Project/entity_linking) (see [here for the 2022 entity linker](https://github.com/Wesleyan-Media-Project/entity_linking_2022)). Each identified entity mention has its own ABSA prediction. Thus, it is (theoretically) possible for an ad to discuss a candidate positively in one place and negatively in another. The model used in this repo is a random forest classifier.
+This repo contains scripts for the Aspect-Based Sentiment Analysis (ABSA) to predict sentiment (1: positive, 0: neutral, -1: negative) towards entities identified by the entity linker (see [here for the 2022 entity linker](https://github.com/Wesleyan-Media-Project/entity_linking_2022)). Each identified entity mention has its own ABSA prediction. Thus, it is (theoretically) possible for an ad to discuss a candidate positively in one place and negatively in another. The model used in this repo is a random forest classifier.
 
 ## 2. Data
 
