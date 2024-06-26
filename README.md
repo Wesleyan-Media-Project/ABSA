@@ -107,8 +107,8 @@ THIS NEEDS TO BE LOOKED OVER
 * `data/intermediate_separate_generic_absa_training_data.rdata` : Training data used model for sentiment analysis.
 * `inference` : A folder with scripts that prepare for and run ABSA inference. Divided into subfolders for Facebook and Google.
 * `train/models/trained_absa_rf.joblib` : Pretrained Aspect Based Sentiment Analysis (ABSA) model.
-* `train/01_prepare_separate_generic_absa.R` : Script which prepares for training model for sentiment analysis. 
-* `train/02_train_rf.py` : Script which trains model for sentiment analysis. 
+* `train/01_prepare_separate_generic_absa.R` : Script which prepares for training model for sentiment analysis. MAKE SURE THIS IS CORRECT
+* `train/02_train_rf.py` : Script which trains model for sentiment analysis. MAKE SURE THIS IS CORRECT
 
 ## 5. Thank You
 
