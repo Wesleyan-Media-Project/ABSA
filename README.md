@@ -82,7 +82,7 @@ Note: If you want to use the pre-trained model we provide, you can find it [here
 To run the inference scripts, you need to first train a model for sentiment analysis. The script `train/01_prepare_separate_generic_absa.R` is used for this model training. The data you need to run this are:
 
 - [`entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz`](https://github.com/Wesleyan-Media-Project/entity_linking/blob/main/facebook/data/entity_linking_results_140m_notext_new.csv.gz)
-- [`fb_2020/fb_2020_140m_adid_text_clean.csv.gz`](INSERT FIGSHARE LINK ONCE READY)
+- [`fb_2020/fb_2020_140m_adid_text_clean.csv.gz`](https://figshare.wesleyan.edu/account/articles/26093257)
 - [`datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/facebook/FBEL_2.0_cleanednoICR_041222.csv)
 - [`datasets/candidates/face_url_candidate.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/candidates/face_url_candidate.csv)
 - [`datasets/candidates/face_url_politician.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/candidates/face_url_politician.csv)
