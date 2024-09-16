@@ -7,10 +7,10 @@ from sklearn import metrics
 from joblib import dump, load
 
 # Input data
-path_prepared = "./data/fb2022_prepared_for_ABSA.csv"
-path_model = './train/models/trained_absa_rf_2022.joblib'
+path_prepared = "data/fb2022_prepared_for_ABSA.csv"
+path_model = 'train/models/trained_absa_rf.joblib'
 # Output data
-path_predictions = './data/fb2022_ABSA_pred.csv.gz'
+path_predictions = 'data/fb2022_ABSA_pred.csv.gz'
 
 
 # Inference on the fb22 dataset
