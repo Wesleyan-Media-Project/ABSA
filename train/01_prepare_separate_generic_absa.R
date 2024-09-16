@@ -6,21 +6,21 @@ library(dplyr)
 library(arrow)
 
 # Input files
-path_el_results_with_text <- "../../entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz"
+path_el_results_with_text <- "../entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz"
 
 # output from fb_2020 repo 
-path_ad_text <- "../../fb_2020/fb_2020_140m_adid_text_clean.csv.gz"
-path_fbel <- "../../datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv"
-path_cands <- "../../datasets/candidates/face_url_candidate.csv"
-path_pols <- "../../datasets/candidates/face_url_politician.csv"
+path_ad_text <- "../fb_2020/fb_2020_140m_adid_text_clean.csv.gz"
+path_fbel <- "../datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv"
+path_cands <- "../datasets/candidates/face_url_candidate.csv"
+path_pols <- "../datasets/candidates/face_url_politician.csv"
 # Intermediary files
 
 # output from data repo
-path_intermediary_1 <- "../data/intermediate_separate_generic_absa.parquet" # Note: used as an input in inference
-path_intermediary_2 <- "../data/intermediate_separate_generic_absa_training_data.rdata"
+path_intermediary_1 <- "data/intermediate_separate_generic_absa.parquet" # Note: used as an input in inference
+path_intermediary_2 <- "data/intermediate_separate_generic_absa_training_data.rdata"
 # Output files
-path_output_train <- "../data/generic_separate_absa_train.csv"
-path_output_test <- "../data/generic_separate_absa_test.csv"
+path_output_train <- "data/generic_separate_absa_train20.csv"
+path_output_test <- "data/generic_separate_absa_test20.csv"
 
 # Read text in
 text <- fread(path_ad_text,
@@ -36,6 +36,7 @@ el_results <- fread(path_el_results_with_text,
 # Combine with text
 text <- left_join(text, el_results, by = "ad_id")
 
+colnames(text)
 # Convert the data of the different fields to long format
 # so rows are the ad_id-field level
 fields <- names(text)[2:9]
@@ -102,7 +103,7 @@ for(i in 1:length(cand_vars)){
 df <- select(df, all_of(c(cand_vars, candid_vars, tone_vars, "ad_id")))
 
 for(i in 1:length(tone_vars)){
-  df[,tone_vars[i] == "In a way to show approval or suppor"] <- 1
+  df[,tone_vars[i] == "In a way to show approval or support"] <- 1
 }
 
 df[df == "In a way to show approval or support"] <- 1
