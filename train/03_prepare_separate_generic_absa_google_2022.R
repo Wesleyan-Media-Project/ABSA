@@ -20,7 +20,7 @@ path_pols <- "../datasets/candidates/face_url_politician.csv"
 # Intermediary files
 
 # output from data repo
-path_intermediary_1 <- "data/intermediate_separate_generic_absa_g2022.rdata" # Note: used as an input in inference
+path_intermediary_1 <- "data/intermediate_separate_generic_absa_g2022.rdata" #
 path_intermediary_2 <- "data/intermediate_separate_generic_absa_training_data_g2022.rdata"
 # Output files
 path_output_train <- "data/generic_separate_absa_gtrain22.csv"
