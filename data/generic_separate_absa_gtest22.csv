@@ -1,0 +1,450 @@
+ad_id,text,text_detected_entities,text_start,text_end,field,CAND,TONE,CAND_name,chunk1,chunk2
+CR00212990314426662913,$T$ FOR US,WMPID1062,0,15,advertiser_name,60,1,Angelica Duenas,"", FOR US
+CR00728345708016435201,$T$ FOR CONGRESS,WMPID70,0,6,advertiser_name,9,1,Adam Schiff,"", FOR CONGRESS
+CR07435764385781383169,$T$ For Congress,WMPID1885,0,11,advertiser_name,800,1,Max Steiner,"", For Congress
+CR10257715129416155137,$T$ FOR US SENATE,WMPID1357,0,9,advertiser_name,1376,1,Rand Paul,"", FOR US SENATE
+CR00065064219048935425,$T$ FOR CONGRESS,WMPID1069,0,12,advertiser_name,647,1,Katie Porter,"", FOR CONGRESS
+CR00117177496792727553,$T$ for Senate,WMPID1302,0,10,advertiser_name,1337,1,Mark Kelly,"", for Senate
+CR00395464370819170305,$T$ FOR CONGRESS,WMPID1668,0,12,advertiser_name,402,1,George Logan,"", FOR CONGRESS
+CR00432616456404860929,$T$ FOR CONGRESS,WMPID84,0,11,advertiser_name,568,1,Joe Collins,"", FOR CONGRESS
+CR00597317250931752961,$T$ FOR CONGRESS,WMPID1264,0,6,advertiser_name,579,1,John Curtis,"", FOR CONGRESS
+CR00713302945839448065,$T$ FOR CONGRESS,WMPID1668,0,12,advertiser_name,402,1,George Logan,"", FOR CONGRESS
+CR00719976225505804289,$T$ FOR CONGRESS,WMPID84,0,11,advertiser_name,568,1,Joe Collins,"", FOR CONGRESS
+CR00823256651237687297,$T$ FOR MONTANA,WMPID2524,0,13,advertiser_name,868,1,Monica Tranel,"", FOR MONTANA
+CR00925611837934796801,$T$ FOR CONGRESS,WMPID2781,0,9,advertiser_name,995,1,Robert Zimmerman,"", FOR CONGRESS
+CR01058536196663148545,$T$ FOR CONGRESS,WMPID1069,0,12,advertiser_name,647,1,Katie Porter,"", FOR CONGRESS
+CR01068580235382882305,$T$ FOR SENATE,WMPID1516,0,22,advertiser_name,1220,1,Catherine Cortez Masto,"", FOR SENATE
+CR01071835270837436417,$T$ FOR CONGRESS,WMPID96,0,14,advertiser_name,695,1,Lauren Boebert,"", FOR CONGRESS
+CR01485873554145673217,$T$ FOR CONGRESS INC.,WMPID973,0,13,advertiser_name,327,1,Drew Ferguson,"", FOR CONGRESS INC.
+CR01553768878197178369,$T$ for Senate,WMPID1302,0,10,advertiser_name,1337,0,Mark Kelly,"", for Senate
+CR01576801447775830017,$T$ FOR SENATE,WMPID3907,0,13,advertiser_name,1208,1,Blake Masters,"", FOR SENATE
+CR01693055560959655937,FRIENDS OF $T$,WMPID1547,11,18,advertiser_name,1223,1,Charles Schumer,FRIENDS OF ,""
+CR01749069974678274049,$T$ FOR CONGRESS,WMPID4126,0,12,advertiser_name,211,1,Cicely Davis,"", FOR CONGRESS
+CR01827365854094819329,$T$ FOR VERMONT,WMPID1029,0,5,advertiser_name,1373,1,Peter Welch,"", FOR VERMONT
+CR01862963986153078785,$T$ FOR CONGRESS,WMPID2556,0,12,advertiser_name,746,1,Mariannette Jane Miller-Meeks,"", FOR CONGRESS
+CR01995916588586369025,$T$ FOR US,WMPID1062,0,15,advertiser_name,60,1,Angelica Duenas,"", FOR US
+CR02015316371746848769,FRIENDS OF $T$,WMPID1547,11,18,advertiser_name,1223,1,Charles Schumer,FRIENDS OF ,""
+CR02212826387088146433,$T$ FOR UTAH INC,WMPID3978,0,8,advertiser_name,1241,1,David Evan Mcmullin,"", FOR UTAH INC
+CR02226821727000723457,$T$ FOR CONGRESS,WMPID2343,0,15,advertiser_name,144,1,Bridget Fleming,"", FOR CONGRESS
+CR02340112931225600001,$T$ FOR SENATE,WMPID1478,0,6,advertiser_name,1215,1,Brian Schatz,"", FOR SENATE
+CR02415060866455044097,$T$ FOR CONGRESS,WMPID2459,0,7,advertiser_name,918,1,Paul Degroot,"", FOR CONGRESS
+CR02713775841891844097,$T$ FOR CONGRESS,WMPID3178,0,6,advertiser_name,78,1,April Becker,"", FOR CONGRESS
+CR02856646657682964481,$T$ FOR CONGRESS,WMPID1103,0,10,advertiser_name,212,1,Cindy Axne,"", FOR CONGRESS
+CR02865007069222666241,$T$ FOR CONGRESS,WMPID1668,0,12,advertiser_name,402,1,George Logan,"", FOR CONGRESS
+CR02876030085607981057,$T$ FOR CONGRESS,WMPID2951,0,12,advertiser_name,661,1,Kermit Jones,"", FOR CONGRESS
+CR02994214322734891009,REP. $T$ - U.S. HOUSE OF REPRESENTATIVES,WMPID1228,5,20,advertiser_name,1183,1,William Timmons,REP. , - U.S. HOUSE OF REPRESENTATIVES
+CR03099068699361935361,$T$ FOR CONGRESS,WMPID338,0,8,advertiser_name,444,1,Hillary Scholten,"", FOR CONGRESS
+CR03380013161712189441,$T$ FOR CONGRESS,WMPID84,0,11,advertiser_name,568,1,Joe Collins,"", FOR CONGRESS
+CR03668076961852293121,$T$ FOR CONGRESS,WMPID338,0,8,advertiser_name,444,1,Hillary Scholten,"", FOR CONGRESS
+CR03695691196383887361,"$T$ for Congress, Inc.",WMPID1266,0,11,advertiser_name,974,1,Rob Wittman,""," for Congress, Inc."
+CR03853228122900004865,$T$ FOR CONGRESS,WMPID948,0,6,advertiser_name,319,1,Doris Matsui,"", FOR CONGRESS
+CR03985302559140085761,$T$ FOR CONGRESS,WMPID1006,0,10,advertiser_name,554,1,Jim Jordan,"", FOR CONGRESS
+CR04380397494052323329,$T$ for Senate,WMPID1302,0,10,advertiser_name,1337,1,Mark Kelly,"", for Senate
+CR04475620973453770753,$T$ FOR CONGRESS,WMPID2537,0,5,advertiser_name,124,1,Brad Pfaff,"", FOR CONGRESS
+CR04559956470241689601,$T$ FOR SENATE,WMPID1321,0,11,advertiser_name,1333,1,Marco Rubio,"", FOR SENATE
+CR04625289245005709313,$T$ FOR CONGRESS,WMPID144,0,17,advertiser_name,67,1,Anna Paulina Luna,"", FOR CONGRESS
+CR04660915071013093377,$T$ FOR SENATE,WMPID1516,0,22,advertiser_name,1220,1,Catherine Cortez Masto,"", FOR SENATE
+CR04922690097888886785,$T$ for Congress,WMPID1181,0,14,advertiser_name,1131,1,Tom Malinowski,"", for Congress
+CR04996210042391756801,$T$ for US Senate,WMPID4438,0,10,advertiser_name,1328,1,Luke Mixon,"", for US Senate
+CR05049459115647041537,$T$ FOR CONGRESS,WMPID1003,0,9,advertiser_name,1086,1,Susie Lee,"", FOR CONGRESS
+CR05545167404679561217,"$T$ FOR CONGRESS, INC.",WMPID271,0,9,advertiser_name,51,1,Andy Barr,""," FOR CONGRESS, INC."
+CR05713015276363055105,"$T$ FOR SENATE, INC.",WMPID1450,0,11,advertiser_name,1387,1,Ron Johnson,""," FOR SENATE, INC."
+CR06084443979401658369,$T$ FOR SENATE,WMPID1321,0,11,advertiser_name,1333,1,Marco Rubio,"", FOR SENATE
+CR06116128056223465473,NEVADANS FOR $T$,WMPID819,13,28,advertiser_name,1078,1,Steven Horsford,NEVADANS FOR ,""
+CR06828983500830408705,$T$ FOR CONGRESS,WMPID1179,0,8,advertiser_name,54,1,Andy Kim,"", FOR CONGRESS
+CR07293660479350636545,$T$ for Congress,WMPID1181,0,14,advertiser_name,1131,1,Tom Malinowski,"", for Congress
+CR07527030447956557825,$T$ FOR GEORGIA,WMPID1330,0,7,advertiser_name,1377,1,Raphael Warnock,"", FOR GEORGIA
+CR08043927631726379009,$T$ FOR US SENATE,WMPID1357,0,9,advertiser_name,1376,1,Rand Paul,"", FOR US SENATE
+CR08057168500503871489,$T$ FOR SENATE,WMPID1321,0,11,advertiser_name,1333,1,Marco Rubio,"", FOR SENATE
+CR08085077747749093377,$T$ FOR SENATE,WMPID1321,0,11,advertiser_name,1333,1,Marco Rubio,"", FOR SENATE
+CR08321766523483979777,$T$ for US Senate,WMPID4438,0,10,advertiser_name,1328,1,Luke Mixon,"", for US Senate
+CR08974361858941124609,$T$ for Congress,WMPID1191,0,8,advertiser_name,798,1,Max Rose,"", for Congress
+CR09127378486997024769,$T$ for Colorado,WMPID1305,0,6,advertiser_name,1347,1,Michael Bennet,"", for Colorado
+CR09424316101887524865,$T$ FOR SENATE,WMPID1516,0,22,advertiser_name,1220,1,Catherine Cortez Masto,"", FOR SENATE
+CR10119517031884652545,$T$ FOR SENATE,WMPID1495,0,9,advertiser_name,1415,1,Tim Scott,"", FOR SENATE
+CR10420631966326980609,$T$ FOR CONGRESS,WMPID897,0,5,advertiser_name,1128,1,Tom Emmer,"", FOR CONGRESS
+CR10595725619637518337,$T$ FOR CONGRESS,WMPID1269,0,10,advertiser_name,5,1,Abigail Spanberger,"", FOR CONGRESS
+CR10850297402242367489,$T$ FOR CONGRESS,WMPID1052,0,12,advertiser_name,875,1,Nancy Pelosi,"", FOR CONGRESS
+CR10872740152552194049,PEOPLE FOR $T$,WMPID859,11,23,advertiser_name,302,1,Derek Kilmer,PEOPLE FOR ,""
+CR10939034999990517761,$T$ FOR CONGRESS,WMPID4223,0,6,advertiser_name,1135,1,Tom Weiler,"", FOR CONGRESS
+CR11096275058367135745,$T$ FOR SENATE,WMPID1321,0,11,advertiser_name,1333,1,Marco Rubio,"", FOR SENATE
+CR11166289965959086081,$T$ FOR CONGRESS,WMPID470,0,13,advertiser_name,462,1,Jackie Gordon,"", FOR CONGRESS
+CR11317490406964330497,$T$ FOR CONGRESS,WMPID1179,0,8,advertiser_name,54,1,Andy Kim,"", FOR CONGRESS
+CR11412550334011146241,$T$ For Congress,WMPID1935,0,15,advertiser_name,508,1,Jayme Stevenson,"", For Congress
+CR11469341552694788097,$T$ FOR COLORADO,WMPID2090,0,18,advertiser_name,145,1,Brittany Louise Pettersen,"", FOR COLORADO
+CR11663324197295226881,$T$ for Senate,WMPID1302,0,10,advertiser_name,1337,1,Mark Kelly,"", for Senate
+CR11674540040532262913,$T$ for Congress,WMPID946,0,5,advertiser_name,52,1,Andy Biggs,"", for Congress
+CR11783274318815821825,$T$ FOR CONGRESS,WMPID2537,0,5,advertiser_name,124,1,Brad Pfaff,"", FOR CONGRESS
+CR11830833694275272705,$T$ FOR CONGRESS,WMPID1117,0,16,advertiser_name,694,1,Lauren A Underwood,"", FOR CONGRESS
+CR11839511040041680897,$T$ for Congress,WMPID3975,0,7,advertiser_name,279,1,David Galluch,"", for Congress
+CR12755697795583705089,$T$ FOR CONGRESS,WMPID848,0,5,advertiser_name,948,1,Randy Weber,"", FOR CONGRESS
+CR12771481285000429569,$T$ FOR CONGRESS,WMPID1223,0,10,advertiser_name,1085,1,Susan Wild,"", FOR CONGRESS
+CR12839607369054814209,$T$ for Senate,WMPID1302,0,10,advertiser_name,1337,1,Mark Kelly,"", for Senate
+CR13078049041202282497,$T$ FOR US SENATE,WMPID1471,0,14,advertiser_name,1326,1,Lisa Murkowski,"", FOR US SENATE
+CR13391006609228955649,BUDDY $T$ FOR CONGRESS,WMPID882,6,12,advertiser_name,152,1,Buddy Carter,BUDDY , FOR CONGRESS
+CR13748540096632586241,REP. $T$ - U.S. HOUSE OF REPRESENTATIVES,WMPID840,5,15,advertiser_name,572,1,Joe Wilson,REP. , - U.S. HOUSE OF REPRESENTATIVES
+CR14523788084471922689,$T$ FOR CONGRESS,WMPID1111,0,6,advertiser_name,1049,1,Sean Casten,"", FOR CONGRESS
+CR14894003820026658817,$T$ FOR CONGRESS,WMPID1629,0,10,advertiser_name,617,1,Josh Riley,"", FOR CONGRESS
+CR14949149825717764097,$T$ FOR SENATE,WMPID1321,0,11,advertiser_name,1333,1,Marco Rubio,"", FOR SENATE
+CR14970070577056841729,$T$ FOR CONGRESS,WMPID2527,0,5,advertiser_name,1022,1,Ryan Zinke,"", FOR CONGRESS
+CR15197939620269522945,$T$ FOR CONGRESS,WMPID2029,0,7,advertiser_name,65,1,Ann Roe,"", FOR CONGRESS
+CR15313882021906874369,Dr. $T$ for Congress,WMPID780,4,13,advertiser_name,951,1,Raul Ruiz,Dr. , for Congress
+CR15676000678956761089,$T$ for Congress,WMPID991,0,11,advertiser_name,61,1,Angie Craig,"", for Congress
+CR15690069273831538689,$T$ for Senate,WMPID1302,0,10,advertiser_name,1337,1,Mark Kelly,"", for Senate
+CR15907896477347741697,$T$ FOR CONGRESS,WMPID3956,0,6,advertiser_name,828,1,Michael Vincent Lawler,"", FOR CONGRESS
+CR16001346169615679489,COMMITTEE TO ELECT $T$,WMPID1147,19,31,advertiser_name,494,1,Jared Golden,COMMITTEE TO ELECT ,""
+CR16319276553856876545,FRIENDS OF $T$,WMPID1547,11,18,advertiser_name,1223,1,Charles Schumer,FRIENDS OF ,""
+CR16486609235623280641,$T$ FOR CONGRESS,WMPID4126,0,12,advertiser_name,211,1,Cicely Davis,"", FOR CONGRESS
+CR16552013272484675585,$T$ for Congress Committee,WMPID1115,0,11,advertiser_name,106,1,Bill Foster,"", for Congress Committee
+CR17018957993737191425,$T$ for Colorado,WMPID1305,0,6,advertiser_name,1347,1,Michael Bennet,"", for Colorado
+CR17308909930220093441,$T$ FOR CONGRESS,WMPID1193,0,24,advertiser_name,25,1,Alexandria Ocasio-Cortez,"", FOR CONGRESS
+CR17360451942953779201,$T$ FOR CONGRESS,WMPID2153,0,12,advertiser_name,352,1,Emilia Sykes,"", FOR CONGRESS
+CR17476619813194301441,$T$ FOR CONGRESS,WMPID2896,0,7,advertiser_name,522,1,Jennifer Kiggans,"", FOR CONGRESS
+CR17777699013508726785,$T$ FOR CONGRESS,WMPID1057,0,10,advertiser_name,66,1,Anna Eshoo,"", FOR CONGRESS
+CR18162793340410527745,"$T$ FOR CONGRESS, INC.",WMPID571,0,8,advertiser_name,711,1,Lisa Scheller,""," FOR CONGRESS, INC."
+CR00020655013122539521,Congressman $T$,WMPID838,12,27,ad_title,782,1,Matt Cartwright,Congressman ,""
+CR00065064219048935425,$T$ for Congress,WMPID1069,0,12,ad_title,647,1,Katie Porter,"", for Congress
+CR00117177496792727553,$T$,WMPID3907,0,13,ad_title,1208,-1,Blake Masters,"",""
+CR00139447623776993281,Rep. $T$,WMPID1269,5,23,ad_title,5,1,Abigail Spanberger,Rep. ,""
+CR00347622764468764673,$T$ is too extreme,WMPID258,0,13,ad_title,34,1,Amanda Adkins,"", is too extreme
+CR00356505993787473921,$T$,WMPID2788,0,13,ad_title,674,-1,Kirsten Engel,"",""
+CR00363298707904397313,$T$ for US Senate,WMPID4511,0,15,ad_title,1268,1,Herschel Walker,"", for US Senate
+CR00395464370819170305,$T$ for Congress 2022 - Chip in $10 or $20 Today,WMPID1668,0,12,ad_title,402,1,George Logan,"", for Congress 2022 - Chip in $10 or $20 Today
+CR00432616456404860929,$T$ for Congress in 2022,WMPID84,0,7,ad_title,568,1,Joe Collins,"", for Congress in 2022
+CR00597317250931752961,$T$ for Congress,WMPID1264,0,11,ad_title,579,1,John Curtis,"", for Congress
+CR00658956628699119617,$T$: 100% Pro-Choice,WMPID1115,0,11,ad_title,106,1,Bill Foster,"",: 100% Pro-Choice
+CR00713302945839448065,$T$ for Congress - Make a Donation Now,WMPID1668,0,12,ad_title,402,1,George Logan,"", for Congress - Make a Donation Now
+CR00719976225505804289,$T$ for Congress in 2022 - Save California,WMPID84,0,7,ad_title,568,1,Joe Collins,"", for Congress in 2022 - Save California
+CR00823256651237687297,Vote for $T$,WMPID2524,9,22,ad_title,868,1,Monica Tranel,Vote for ,""
+CR00925611837934796801,$T$ for NY-03,WMPID2781,0,16,ad_title,995,1,Robert Zimmerman,"", for NY-03
+CR00953840905624748033,$T$ for Senate - Endorsed by President Trump,WMPID4511,0,15,ad_title,1268,1,Herschel Walker,"", for Senate - Endorsed by President Trump
+CR00953840905624748033,Herschel Walker for Senate - Endorsed by President $T$,WMPID1290,51,56,ad_title,1438,1,Donald Trump,Herschel Walker for Senate - Endorsed by President ,""
+CR01058536196663148545,$T$ for Congress,WMPID1069,0,12,ad_title,647,1,Katie Porter,"", for Congress
+CR01071835270837436417,Congresswoman $T$ - Colorado's 3rd District,WMPID96,14,28,ad_title,695,1,Lauren Boebert,Congresswoman , - Colorado's 3rd District
+CR01243374477933281281,Need Help With Immigration? - Contact Congressman $T$,WMPID1263,50,56,ad_title,224,1,Colin Allred,Need Help With Immigration? - Contact Congressman ,""
+CR01485873554145673217,$T$ for Congress - Chip in $10 or $20 Now,WMPID973,0,13,ad_title,327,1,Drew Ferguson,"", for Congress - Chip in $10 or $20 Now
+CR01495364469797158913,$T$ for U.S. Senate,WMPID4545,0,12,ad_title,1257,1,Eric Schmitt,"", for U.S. Senate
+CR01495423087510814721,$T$ for Congress - Make a Donation Today,WMPID2653,0,11,ad_title,1015,1,Russell Fry,"", for Congress - Make a Donation Today
+CR01553768878197178369,$T$,WMPID1302,0,10,ad_title,1337,0,Mark Kelly,"",""
+CR01576801447775830017,$T$ for Senate - Arizona's True MAGA Candidate,WMPID3907,0,13,ad_title,1208,1,Blake Masters,"", for Senate - Arizona's True MAGA Candidate
+CR01693055560959655937,Senate Majority Leader $T$,WMPID1547,23,30,ad_title,1223,1,Charles Schumer,Senate Majority Leader ,""
+CR01862963986153078785,Iowa Republican - Iowa Republican $T$,WMPID2556,34,46,ad_title,746,1,Mariannette Jane Miller-Meeks,Iowa Republican - Iowa Republican ,""
+CR02015316371746848769,Senate Majority Leader $T$,WMPID1547,23,30,ad_title,1223,1,Charles Schumer,Senate Majority Leader ,""
+CR02103093408649183233,Tax Lover $T$,WMPID4643,10,24,ad_title,43,-1,Andrea Salinas,Tax Lover ,""
+CR02222831599303524353,$T$ is Too Extreme,WMPID86,0,14,ad_title,836,-1,Michelle Steel,"", is Too Extreme
+CR02340112931225600001,Vote for $T$,WMPID1478,9,21,ad_title,1215,1,Brian Schatz,Vote for ,""
+CR02386152712895987713,Trusted Conservative - Army Veteran $T$,WMPID1091,36,47,ad_title,417,1,Greg Steube,Trusted Conservative - Army Veteran ,""
+CR02410482500036984833,$T$: Too Extreme,WMPID3907,0,13,ad_title,1208,-1,Blake Masters,"",: Too Extreme
+CR02517729413966069761,$T$ for Congress,WMPID1093,0,7,ad_title,745,1,Maria Salazar,"", for Congress
+CR02713775841891844097,$T$ for Congress 2022 - Please Chip in $10 or $20,WMPID3178,0,6,ad_title,78,1,April Becker,"", for Congress 2022 - Please Chip in $10 or $20
+CR02722862343422738433,Donate to $T$ Now - Herschel Walker US Senate 2022,WMPID4511,10,25,ad_title,1268,1,Herschel Walker,Donate to , Now - Herschel Walker US Senate 2022
+CR02722862343422738433,Donate to Herschel Walker Now - $T$ US Senate 2022,WMPID4511,32,47,ad_title,1268,1,Herschel Walker,Donate to Herschel Walker Now - , US Senate 2022
+CR02856646657682964481,$T$ for Congress,WMPID1103,0,10,ad_title,212,1,Cindy Axne,"", for Congress
+CR02865007069222666241,Support $T$ for Congress - Rush Your $10 Donation Today,WMPID1668,8,13,ad_title,402,1,George Logan,Support , for Congress - Rush Your $10 Donation Today
+CR02876030085607981057,Dr. $T$ for Congress - Kermit Jones for California,WMPID2951,4,16,ad_title,661,1,Kermit Jones,Dr. , for Congress - Kermit Jones for California
+CR02994214322734891009,Congressman $T$,WMPID1228,12,27,ad_title,1183,1,William Timmons,Congressman ,""
+CR03099068699361935361,Advocate for West Michigan - $T$ for Congress,WMPID338,29,45,ad_title,444,1,Hillary Scholten,Advocate for West Michigan - , for Congress
+CR03099536816437460993,Stop $T$ On Nov. 8,WMPID800,5,19,ad_title,125,-1,Brad Schneider,Stop , On Nov. 8
+CR03130322317381468161,$T$ Needs To Go,WMPID918,0,14,ad_title,344,-1,Elise Stefanik,"", Needs To Go
+CR03273469729066450945,$T$ For Congress - Defend Our Southern Border,WMPID1184,0,14,ad_title,1192,1,Yvette Herrell,"", For Congress - Defend Our Southern Border
+CR03372316855195664385,$T$,WMPID1246,0,15,ad_title,714,1,Lizzie Fletcher,"",""
+CR03380013161712189441,$T$ For Congress,WMPID84,0,11,ad_title,568,1,Joe Collins,"", For Congress
+CR03393118790559465473,Extreme $T$,WMPID2908,8,20,ad_title,654,-1,Kelly Cooper,Extreme ,""
+CR03668076961852293121,Support $T$,WMPID338,8,24,ad_title,444,1,Hillary Scholten,Support ,""
+CR03695691196383887361,$T$ For Congress,WMPID1266,0,11,ad_title,974,1,Rob Wittman,"", For Congress
+CR03699301923850027009,Help re-elect Dr. $T$ - The GOP is targeting WA-08,WMPID1280,18,29,ad_title,672,1,Kim Schrier,Help re-elect Dr. , - The GOP is targeting WA-08
+CR03853228122900004865,$T$ for Congress.,WMPID948,0,12,ad_title,319,1,Doris Matsui,"", for Congress.
+CR03905748494823981057,Vote Against $T$,WMPID1450,13,24,ad_title,1387,-1,Ron Johnson,Vote Against ,""
+CR03915792602263191553,$T$,WMPID1157,0,10,ad_title,452,1,Ilhan Omar,"",""
+CR03985302559140085761,$T$ Ohio Congress,WMPID1006,0,10,ad_title,554,1,Jim Jordan,"", Ohio Congress
+CR03997559571169148929,Evan McMullin For Senate - Donate Now To Replace $T$,WMPID1445,49,57,ad_title,1356,-1,Mike Lee,Evan McMullin For Senate - Donate Now To Replace ,""
+CR04207562306344714241,$T$ for Kentucky - Donate for a KY New Deal,WMPID2244,0,6,ad_title,1222,1,Charles Booker,"", for Kentucky - Donate for a KY New Deal
+CR04212119713322369025,Costly $T$,WMPID1516,7,29,ad_title,1220,1,Catherine Cortez Masto,Costly ,""
+CR04367480431449210881,Replace $T$,WMPID1103,8,18,ad_title,212,-1,Cindy Axne,Replace ,""
+CR04380397494052323329,$T$: Working for AZ,WMPID1302,0,10,ad_title,1337,1,Mark Kelly,"",: Working for AZ
+CR04475620973453770753,$T$ for Congress,WMPID2537,0,10,ad_title,124,1,Brad Pfaff,"", for Congress
+CR04514769084960735233,$T$ Is Failing CO - She Doesn’t Care About Us,WMPID4191,0,14,ad_title,1185,-1,Yadira Caraveo,"", Is Failing CO - She Doesn’t Care About Us
+CR04559956470241689601,$T$,WMPID1321,0,11,ad_title,1333,1,Marco Rubio,"",""
+CR04625289245005709313,$T$ For Congress - Official Website,WMPID144,0,17,ad_title,67,1,Anna Paulina Luna,"", For Congress - Official Website
+CR04958633133000884225,$T$,WMPID1196,0,10,ad_title,926,1,Paul Tonko,"",""
+CR04996210042391756801,$T$ for US Senate,WMPID4438,0,10,ad_title,1328,1,Luke Mixon,"", for US Senate
+CR05049459115647041537,$T$,WMPID1003,0,9,ad_title,1086,1,Susie Lee,"",""
+CR05504974963284639745,$T$,WMPID4671,0,14,ad_title,1310,-1,Kelly Tshibaka,"",""
+CR05545167404679561217,Donate to $T$ for Congress - Donate $10 or More Now,WMPID271,10,14,ad_title,51,1,Andy Barr,Donate to , for Congress - Donate $10 or More Now
+CR05580474853351227393,$T$ or Baugh?,WMPID1069,0,6,ad_title,647,0,Katie Porter,"", or Baugh?
+CR05580474853351227393,Porter or $T$?,WMPID2130,10,15,ad_title,1035,0,Scott Baugh,Porter or ,?
+CR05713015276363055105,Ron Johnson - Senator $T$,WMPID1450,22,33,ad_title,1387,1,Ron Johnson,Ron Johnson - Senator ,""
+CR05758213313162903553,Henry McMaster for Governor - Endorsed by President $T$,WMPID1290,52,57,ad_title,1438,1,Donald Trump,Henry McMaster for Governor - Endorsed by President ,""
+CR05843785073337303041,Representative $T$,WMPID1149,15,29,ad_title,345,-1,Elissa Slotkin,Representative ,""
+CR06116128056223465473,Congressman $T$,WMPID819,12,27,ad_title,1078,1,Steven Horsford,Congressman ,""
+CR06684125042894176257,Vote for $T$,WMPID3752,9,27,ad_title,192,1,Christina Bohannan,Vote for ,""
+CR06828983500830408705,Vote $T$ for Congress,WMPID1179,5,13,ad_title,54,1,Andy Kim,Vote , for Congress
+CR07293660479350636545,$T$ for Congress - Protecting Democracy,WMPID1181,0,14,ad_title,1131,1,Tom Malinowski,"", for Congress - Protecting Democracy
+CR07451921640432074753,$T$ US Senate 2022 - Donate to Herschel Walker Now,WMPID4511,0,15,ad_title,1268,1,Herschel Walker,"", US Senate 2022 - Donate to Herschel Walker Now
+CR07527030447956557825,Vote for Rev. $T$,WMPID1330,14,21,ad_title,1377,1,Raphael Warnock,Vote for Rev. ,""
+CR07747293619484098561,Your Member Of Congress - Representative $T$,WMPID1263,41,53,ad_title,224,1,Colin Allred,Your Member Of Congress - Representative ,""
+CR08043927631726379009,Support $T$ For Senate,WMPID1357,8,17,ad_title,1376,1,Rand Paul,Support , For Senate
+CR08162842563049422849,$T$,WMPID1156,0,13,ad_title,292,1,Dean Phillips,"",""
+CR08321766523483979777,$T$ for US Senate,WMPID4438,0,10,ad_title,1328,1,Luke Mixon,"", for US Senate
+CR08933747823556427777,Vote No on $T$,WMPID3907,11,24,ad_title,1208,-1,Blake Masters,Vote No on ,""
+CR08974361858941124609,$T$ for Congress,WMPID1191,0,8,ad_title,798,1,Max Rose,"", for Congress
+CR09127378486997024769,$T$ For Colorado - GOP Targeting Colorado,WMPID1305,0,14,ad_title,1347,1,Michael Bennet,"", For Colorado - GOP Targeting Colorado
+CR09409847628377620481,Donate to Elect $T$,WMPID787,16,27,ad_title,1425,1,Val Demings,Donate to Elect ,""
+CR09424316101887524865,$T$,WMPID1516,0,22,ad_title,1220,1,Catherine Cortez Masto,"",""
+CR09592861338820935681,$T$ fights for us,WMPID1149,0,14,ad_title,345,1,Elissa Slotkin,"", fights for us
+CR09923677449583853569,Who Is $T$? - Right-wing Radical,WMPID3408,7,17,ad_title,1186,-1,Yesli Vega,Who Is ,? - Right-wing Radical
+CR10119517031884652545,Support $T$ for Senate - Fight for the American Dream,WMPID1495,8,17,ad_title,1415,1,Tim Scott,Support , for Senate - Fight for the American Dream
+CR10367110282907484161,Dr. $T$ for Congress - Representing Washington's 8th,WMPID1280,4,15,ad_title,672,1,Kim Schrier,Dr. , for Congress - Representing Washington's 8th
+CR10420631966326980609,Meet $T$,WMPID897,5,14,ad_title,1128,1,Tom Emmer,Meet ,""
+CR10453274267532394497,$T$:,WMPID1405,0,10,ad_title,1250,-1,Don Bolduc,"",:
+CR10595725619637518337,Vote $T$,WMPID1269,5,23,ad_title,5,1,Abigail Spanberger,Vote ,""
+CR10774073277610459137,$T$: Too Extreme - Masters Will Strip our Freedom,WMPID3907,0,13,ad_title,1208,-1,Blake Masters,"",: Too Extreme - Masters Will Strip our Freedom
+CR10872740152552194049,Vote for $T$,WMPID859,9,21,ad_title,302,1,Derek Kilmer,Vote for ,""
+CR10939034999990517761,$T$ - For Minnesota,WMPID4223,0,10,ad_title,1135,1,Tom Weiler,"", - For Minnesota
+CR11166289965959086081,Donate via Act Blue - Give to Democrat $T$,WMPID470,39,52,ad_title,462,1,Jackie Gordon,Donate via Act Blue - Give to Democrat ,""
+CR11317490406964330497,Vote $T$ for Congress,WMPID1179,5,13,ad_title,54,1,Andy Kim,Vote , for Congress
+CR11367138579638648833,Democrat $T$,WMPID1072,9,19,ad_title,853,-1,Mike Levin,Democrat ,""
+CR11412550334011146241,$T$ For Congress - New Vision For America,WMPID1935,0,15,ad_title,508,1,Jayme Stevenson,"", For Congress - New Vision For America
+CR11469341552694788097,$T$ - Colorado's 7th Congressional,WMPID2090,0,18,ad_title,145,1,Brittany Louise Pettersen,"", - Colorado's 7th Congressional
+CR11519657609963503617,Vote to Defeat $T$,WMPID2527,15,25,ad_title,1022,-1,Ryan Zinke,Vote to Defeat ,""
+CR11658479749063245825,Where is $T$?,WMPID1223,9,19,ad_title,1085,-1,Susan Wild,Where is ,?
+CR11674540040532262913,Congressman $T$,WMPID946,12,22,ad_title,52,1,Andy Biggs,Congressman ,""
+CR11783274318815821825,$T$ for Congress,WMPID2537,0,10,ad_title,124,1,Brad Pfaff,"", for Congress
+CR11830833694275272705,$T$ for Congress,WMPID1117,0,16,ad_title,694,1,Lauren A Underwood,"", for Congress
+CR11926362356872904705,$T$ for Congress,WMPID945,0,14,ad_title,1133,1,Tom O'Halleran,"", for Congress
+CR11994778024802254849,$T$ for Congress,WMPID775,0,13,ad_title,361,1,Eric Swalwell,"", for Congress
+CR12039033367820238849,$T$,WMPID3907,0,13,ad_title,1208,-1,Blake Masters,"",""
+CR12054595305643966465,$T$. Don’t Be Fooled.,WMPID1147,0,12,ad_title,494,-1,Jared Golden,"",. Don’t Be Fooled.
+CR12128397824635174913,Support $T$,WMPID4731,8,20,ad_title,1181,1,Will Rollins,Support ,""
+CR12433968323790635009,Liberal $T$,WMPID827,8,28,ad_title,1050,-1,Sean Patrick Maloney,Liberal ,""
+CR12755697795583705089,$T$ for Congress,WMPID848,0,11,ad_title,948,1,Randy Weber,"", for Congress
+CR13078049041202282497,$T$,WMPID1471,0,14,ad_title,1326,1,Lisa Murkowski,"",""
+CR13290421911130472449,$T$ for Senate,WMPID2065,0,14,ad_title,1295,1,John Karl Fetterman,"", for Senate
+CR13391006609228955649,Buddy $T$ for GA-1,WMPID882,6,12,ad_title,152,1,Buddy Carter,Buddy , for GA-1
+CR13634529743083667457,$T$: Read More,WMPID4650,0,14,ad_title,1330,-1,Mandela Barnes,"",: Read More
+CR13748540096632586241,US Representative $T$,WMPID840,18,28,ad_title,572,1,Joe Wilson,US Representative ,""
+CR13892752454048546817,$T$ for Illinois - Fighting for Veterans,WMPID1504,0,15,ad_title,1407,1,Tammy Duckworth,"", for Illinois - Fighting for Veterans
+CR14523788084471922689,$T$ for Congress,WMPID1111,0,11,ad_title,1049,1,Sean Casten,"", for Congress
+CR14707170406188449793,Where is $T$?,WMPID945,9,23,ad_title,1133,-1,Tom O'Halleran,Where is ,?
+CR14891090938846773249,$T$ for Congress,WMPID3752,0,8,ad_title,192,1,Christina Bohannan,"", for Congress
+CR14923906138255654913,Where is $T$?,WMPID1103,9,19,ad_title,212,-1,Cindy Axne,Where is ,?
+CR14949149825717764097,Marco Rubio - Senator $T$,WMPID1321,22,27,ad_title,1333,1,Marco Rubio,Marco Rubio - Senator ,""
+CR14970070577056841729,$T$ for Congress - Ryan Zinke,WMPID2527,0,10,ad_title,1022,1,Ryan Zinke,"", for Congress - Ryan Zinke
+CR14970070577056841729,Ryan Zinke for Congress - $T$,WMPID2527,26,36,ad_title,1022,1,Ryan Zinke,Ryan Zinke for Congress - ,""
+CR15022586757092737025,How Corrupt Is $T$? - Monica Tranel for Congress,WMPID2527,15,25,ad_title,1022,-1,Ryan Zinke,How Corrupt Is ,? - Monica Tranel for Congress
+CR15197939620269522945,$T$ is on the ballot,WMPID2029,0,3,ad_title,65,1,Ann Roe,"", is on the ballot
+CR15313882021906874369,$T$ For Congress,WMPID780,0,9,ad_title,951,1,Raul Ruiz,"", For Congress
+CR15690069273831538689,$T$ for Arizona - Official 2022 Senate Campaign,WMPID1302,0,10,ad_title,1337,1,Mark Kelly,"", for Arizona - Official 2022 Senate Campaign
+CR15776059535619260417,$T$ for Senate - A Leader And Advocate,WMPID3844,0,12,ad_title,1329,1,Madison Horn,"", for Senate - A Leader And Advocate
+CR15781682438083706881,$T$ Doesn't Care.,WMPID363,0,13,ad_title,1152,-1,Tyler Kistner,"", Doesn't Care.
+CR15914901465928302593,$T$ Forgives Student Loans - See How this is,WMPID1289,0,5,ad_title,1437,1,Joe Biden,"", Forgives Student Loans - See How this is
+CR16319276553856876545,Senate Majority Leader $T$,WMPID1547,23,30,ad_title,1223,1,Charles Schumer,Senate Majority Leader ,""
+CR16327252205046333441,$T$,WMPID273,0,13,ad_title,1074,1,Steve Scalise,"",""
+CR16486609235623280641,$T$ for Congress,WMPID4126,0,12,ad_title,211,1,Cicely Davis,"", for Congress
+CR17018957993737191425,$T$ For Senate - Fighting For Colorado Families,WMPID1305,0,14,ad_title,1347,1,Michael Bennet,"", For Senate - Fighting For Colorado Families
+CR17360451942953779201,$T$ for Congress,WMPID2153,0,12,ad_title,352,1,Emilia Sykes,"", for Congress
+CR17499777108623228929,Reject Far-Left $T$,WMPID2065,16,30,ad_title,1295,-1,John Karl Fetterman,Reject Far-Left ,""
+CR17596425280216367105,$T$,WMPID1405,0,10,ad_title,1250,1,Don Bolduc,"",""
+CR17621718445701726209,$T$ Abortion Ban,WMPID2001,0,16,ad_title,768,-1,Mark Robertson,"", Abortion Ban
+CR18006982372272111617,$T$ is dangerous,WMPID4736,0,10,ad_title,583,-1,John Gibbs,"", is dangerous
+CR18162314228218724353,$T$: Another Phony - Cash from PACs and Lobbyists,WMPID3297,0,13,ad_title,1224,-1,Cheri Beasley,"",: Another Phony - Cash from PACs and Lobbyists
+CR18162793340410527745,Republican $T$,WMPID571,11,24,ad_title,711,1,Lisa Scheller,Republican ,""
+CR00728345708016435201,Pro-Choice Rep. $T$Chip in to help elect pro-choice Democratsacross the country.Schiff for Congress,WMPID70,16,27,ad_text,9,1,Adam Schiff,Pro-Choice Rep. ,"
+Chip in to help elect pro-choice Democrats
+across the country.
+Schiff for Congress"
+CR00728345708016435201,Pro-Choice Rep. Adam SchiffChip in to help elect pro-choice Democratsacross the country.$T$ for Congress,WMPID70,91,97,ad_text,9,1,Adam Schiff,"Pro-Choice Rep. Adam Schiff
+Chip in to help elect pro-choice Democrats
+across the country.
+", for Congress
+CR00782689413816647681,$T$’s Buses SurveyQuick: Let us know your thoughts.Friends of Ron DeSantis,WMPID1289,0,5,ad_text,1437,-1,Joe Biden,"","’s Buses Survey
+Quick: Let us know your thoughts.
+Friends of Ron DeSantis"
+CR00878279511626481665,Live Poll: Biden ApprovalRGA Petition To Stop $T$RGA,WMPID1289,47,56,ad_text,1437,-1,Joe Biden,"Live Poll: Biden Approval
+RGA Petition To Stop ","
+RGA"
+CR02192949896917549057,$T$ for US CongressNow is an important time to get the United Statesback on track by voting for common sensePaid by Erik Olsen WI2,WMPID4549,0,10,ad_text,364,1,Erik Olsen,""," for US Congress
+Now is an important time to get the United States
+back on track by voting for common sense
+Paid by Erik Olsen WI2"
+CR07435764385781383169,$T$ For CongressContact Max Steiner For Congress NowMax Steiner For Congress,WMPID1885,0,11,ad_text,800,1,Max Steiner,""," For Congress
+Contact Max Steiner For Congress Now
+Max Steiner For Congress"
+CR07435764385781383169,Max Steiner For CongressContact $T$ For Congress NowMax Steiner For Congress,WMPID1885,33,44,ad_text,800,1,Max Steiner,"Max Steiner For Congress
+Contact "," For Congress Now
+Max Steiner For Congress"
+CR07435764385781383169,Max Steiner For CongressContact Max Steiner For Congress Now$T$ For Congress,WMPID1885,62,73,ad_text,800,1,Max Steiner,"Max Steiner For Congress
+Contact Max Steiner For Congress Now
+", For Congress
+CR10257715129416155137,Time to take our country backFreedom doesn't come from Washington$T$ for US Senate,WMPID1357,67,76,ad_text,1376,1,Rand Paul,"Time to take our country back
+Freedom doesn't come from Washington
+", for US Senate
+CR10954340201849159681,Should we investigate Hillary?Did Clinton operatives spy on $T$? Wedeserve to know the truthJudicial Watch,WMPID1290,61,66,ad_text,1438,1,Donald Trump,"Should we investigate Hillary?
+Did Clinton operatives spy on ","? We
+deserve to know the truth
+Judicial Watch"
+CR13509358040842764289,Katie Porter Named Top Spender$T$ Outspent Pelosi,WMPID1069,31,43,ad_text,647,-1,Katie Porter,"Katie Porter Named Top Spender
+", Outspent Pelosi
+CR13509358040842764289,Katie Porter Named Top Spender$T$ Outspent Pelosi,WMPID1069,31,43,ad_text,647,-1,Katie Porter,"Katie Porter Named Top Spender
+", Outspent Pelosi
+CR13509358040842764289,Katie Porter Named Top Spender$T$ Outspent Pelosi,WMPID1069,31,43,ad_text,647,-1,Katie Porter,"Katie Porter Named Top Spender
+", Outspent Pelosi
+CR13509358040842764289,Katie Porter Named Top Spender$T$ Outspent Pelosi,WMPID1069,31,43,ad_text,647,-1,Katie Porter,"Katie Porter Named Top Spender
+", Outspent Pelosi
+CR00065064219048935425,$T$ will stand up to Republicans in Washington who want to overturn our rights.,WMPID1069,0,12,ad_text,647,1,Katie Porter,"", will stand up to Republicans in Washington who want to overturn our rights.
+CR00117177496792727553,$T$ wants to raise our taxes to give tax breaks to the wealthy.,WMPID3907,0,13,ad_text,1208,-1,Blake Masters,"", wants to raise our taxes to give tax breaks to the wealthy.
+CR00136470902203219969,$T$ cheered when the Supreme Court overturned Roe v. Wade.,WMPID1073,0,13,ad_text,140,-1,Brian Maryott,"", cheered when the Supreme Court overturned Roe v. Wade.
+CR00139447623776993281,Visit Congresswoman $T$'s website to learn more.,WMPID1269,20,30,ad_text,5,1,Abigail Spanberger,Visit Congresswoman ,'s website to learn more.
+CR00347622764468764673,$T$ was former Governor Sam Brownback's campaign manager and top advisor.,WMPID258,0,13,ad_text,34,1,Amanda Adkins,"", was former Governor Sam Brownback's campaign manager and top advisor.
+CR00356505993787473921,$T$ is not an ordinary Arizona Democrat. She's ridiculously liberal!,WMPID2788,0,13,ad_text,674,-1,Kirsten Engel,"", is not an ordinary Arizona Democrat. She's ridiculously liberal!
+CR00363298707904397313,"$T$ is officially running for United States Senate from Georgia,",WMPID4511,0,15,ad_text,1268,1,Herschel Walker,""," is officially running for United States Senate from Georgia,"
+CR00369372203977801729,The liberal elites are pouring money into $T$’s campaign. Donate to help me fight back!,WMPID3217,42,46,ad_text,1416,-1,Timothy Ryan,The liberal elites are pouring money into ,’s campaign. Donate to help me fight back!
+CR00395464370819170305,Increases in gas prices and the cost of living are causing hardships for many families. $T$ will fight for you and be your voice in Congress. Help take our country back!,WMPID1668,88,100,ad_text,402,1,George Logan,Increases in gas prices and the cost of living are causing hardships for many families. , will fight for you and be your voice in Congress. Help take our country back!
+CR00432616456404860929,$T$ is relaunching his campaign to save California.,WMPID84,0,11,ad_text,568,1,Joe Collins,"", is relaunching his campaign to save California.
+CR00597317250931752961,Rep. $T$ gets things done.,WMPID1264,5,16,ad_text,579,1,John Curtis,Rep. , gets things done.
+CR00653077540025401345,Working families need inflation relief now. Senator $T$ is fighting to deliver it.,WMPID1302,52,62,ad_text,1337,1,Mark Kelly,Working families need inflation relief now. Senator , is fighting to deliver it.
+CR00713302945839448065,"George will fight for fiscal stability and sensibility in Connecticut and Washington D.C. If you're ready for a better future, support $T$ for Congress. Please donate now!",WMPID1668,135,147,ad_text,402,1,George Logan,"George will fight for fiscal stability and sensibility in Connecticut and Washington D.C. If you're ready for a better future, support ", for Congress. Please donate now!
+CR00719976225505804289,$T$ is relaunching his campaign to save California in 2022. Join Joe and stand up for the values that make our country great. Please donate now!,WMPID84,0,11,ad_text,568,1,Joe Collins,"", is relaunching his campaign to save California in 2022. Join Joe and stand up for the values that make our country great. Please donate now!
+CR00823256651237687297,Vote for $T$ by November 8th to elect a candidate who will defend our rights.,WMPID2524,9,22,ad_text,868,1,Monica Tranel,Vote for , by November 8th to elect a candidate who will defend our rights.
+CR00953840905624748033,$T$ has President Trump’s Complete and Total Endorsement! Join President Trump on Team Herschel. Donate to Herschel Walker for Senate Today!,WMPID4511,0,15,ad_text,1268,1,Herschel Walker,"", has President Trump’s Complete and Total Endorsement! Join President Trump on Team Herschel. Donate to Herschel Walker for Senate Today!
+CR00953840905624748033,Herschel Walker has President $T$’s Complete and Total Endorsement! Join President Trump on Team Herschel. Donate to Herschel Walker for Senate Today!,WMPID1290,30,35,ad_text,1438,1,Donald Trump,Herschel Walker has President ,’s Complete and Total Endorsement! Join President Trump on Team Herschel. Donate to Herschel Walker for Senate Today!
+CR00953840905624748033,Herschel Walker has President Trump’s Complete and Total Endorsement! Join President $T$ on Team Herschel. Donate to Herschel Walker for Senate Today!,WMPID1290,85,90,ad_text,1438,1,Donald Trump,Herschel Walker has President Trump’s Complete and Total Endorsement! Join President , on Team Herschel. Donate to Herschel Walker for Senate Today!
+CR00953840905624748033,Herschel Walker has President Trump’s Complete and Total Endorsement! Join President Trump on Team Herschel. Donate to $T$ for Senate Today!,WMPID4511,119,134,ad_text,1268,1,Herschel Walker,Herschel Walker has President Trump’s Complete and Total Endorsement! Join President Trump on Team Herschel. Donate to , for Senate Today!
+CR01058536196663148545,$T$ takes on special interests to protect taxpayers and fight corruption.,WMPID1069,0,12,ad_text,647,1,Katie Porter,"", takes on special interests to protect taxpayers and fight corruption.
+CR01391895477821112321,"In Congress, $T$ will fight to make life affordable and our streets safe.",WMPID3896,13,32,ad_text,720,1,Lori Chavez-Deremer,"In Congress, ", will fight to make life affordable and our streets safe.
+CR01495364469797158913,"$T$ will stand up to the radical, liberal agenda of Biden, Schumer, and Pelosi",WMPID4545,0,12,ad_text,1257,1,Eric Schmitt,""," will stand up to the radical, liberal agenda of Biden, Schumer, and Pelosi"
+CR01495364469797158913,"Eric Schmitt will stand up to the radical, liberal agenda of $T$, Schumer, and Pelosi",WMPID1289,61,66,ad_text,1437,-1,Joe Biden,"Eric Schmitt will stand up to the radical, liberal agenda of ",", Schumer, and Pelosi"
+CR01495364469797158913,"Eric Schmitt will stand up to the radical, liberal agenda of Biden, $T$, and Pelosi",WMPID1547,68,75,ad_text,1223,-1,Charles Schumer,"Eric Schmitt will stand up to the radical, liberal agenda of Biden, ",", and Pelosi"
+CR01495364469797158913,"Eric Schmitt will stand up to the radical, liberal agenda of Biden, Schumer, and $T$",WMPID1052,81,87,ad_text,875,-1,Nancy Pelosi,"Eric Schmitt will stand up to the radical, liberal agenda of Biden, Schumer, and ",""
+CR01495423087510814721,"$T$ will take on the radical Left and fight their socialist, destructive agenda. We need to bring America first policies back. If you agree, donate to support Russell Fry.",WMPID2653,0,11,ad_text,1015,1,Russell Fry,""," will take on the radical Left and fight their socialist, destructive agenda. We need to bring America first policies back. If you agree, donate to support Russell Fry."
+CR01495423087510814721,"Russell Fry will take on the radical Left and fight their socialist, destructive agenda. We need to bring America first policies back. If you agree, donate to support $T$.",WMPID2653,167,178,ad_text,1015,1,Russell Fry,"Russell Fry will take on the radical Left and fight their socialist, destructive agenda. We need to bring America first policies back. If you agree, donate to support ",.
+CR01514767482773045249,President $T$ has asked governors to reopen schools by the end of his first 100 days.,WMPID1289,10,15,ad_text,1437,1,Joe Biden,President , has asked governors to reopen schools by the end of his first 100 days.
+CR01553768878197178369,$T$ passed a law to expand microchip manufacturing in Arizona.,WMPID1302,0,10,ad_text,1337,0,Mark Kelly,"", passed a law to expand microchip manufacturing in Arizona.
+CR01576801447775830017,$T$ will fight every day to make life in Arizona safe again.,WMPID3907,0,13,ad_text,1208,1,Blake Masters,"", will fight every day to make life in Arizona safe again.
+CR01630354261118287873,"Bucks County Sheriff Harran: ""F$T$wants to end life sentences for felony murderers.""",WMPID2065,31,40,ad_text,1295,-1,John Karl Fetterman,"Bucks County Sheriff Harran: ""F","wants to end life sentences for felony murderers."""
+CR01693055560959655937,Sen. $T$ And Democrats Are Making Historic Progress. Donate To Keep Them Fighting.,WMPID1547,5,12,ad_text,1223,1,Charles Schumer,Sen. , And Democrats Are Making Historic Progress. Donate To Keep Them Fighting.
+CR01827365854094819329,Don't let Republicans win this Senate seat. Donate to support $T$ for Senate.,WMPID1029,62,73,ad_text,1373,1,Peter Welch,Don't let Republicans win this Senate seat. Donate to support , for Senate.
+CR02103093408649183233,"$T$ voted to raise taxes in Oregon. For Andrea Salinas, the bigger the better.",WMPID4643,0,14,ad_text,43,-1,Andrea Salinas,""," voted to raise taxes in Oregon. For Andrea Salinas, the bigger the better."
+CR02103093408649183233,"Andrea Salinas voted to raise taxes in Oregon. For $T$, the bigger the better.",WMPID4643,51,65,ad_text,43,-1,Andrea Salinas,Andrea Salinas voted to raise taxes in Oregon. For ,", the bigger the better."
+CR02212826387088146433,$T$ is fundraising to attack me. I will continue to stand against extremism. Join Us.,WMPID1445,0,8,ad_text,1356,-1,Mike Lee,"", is fundraising to attack me. I will continue to stand against extremism. Join Us.
+CR02292127563729862657,Donate To The GOP Today To Help Us Out Raise The Corrupt Democrats! We Must Stop $T$ And His Corrupt Democratic Colleagues! Give Now!,WMPID1289,81,90,ad_text,1437,-1,Joe Biden,Donate To The GOP Today To Help Us Out Raise The Corrupt Democrats! We Must Stop , And His Corrupt Democratic Colleagues! Give Now!
+CR02386152712895987713,"$T$ has dedicated his life to service, joining the Army after 9/11. In Congress, he's a strong defender of conservative principles. Chip in now!",WMPID1091,0,11,ad_text,417,1,Greg Steube,""," has dedicated his life to service, joining the Army after 9/11. In Congress, he's a strong defender of conservative principles. Chip in now!"
+CR02410482500036984833,Republican candidate $T$ wants a national abortion BAN. He's too extreme for AZ.,WMPID3907,21,34,ad_text,1208,-1,Blake Masters,Republican candidate , wants a national abortion BAN. He's too extreme for AZ.
+CR02713775841891844097,"As a working mom with young children, April put herself through college and law school. $T$ has the drive and determination needed to create real change in our country!",WMPID3178,88,100,ad_text,78,1,April Becker,"As a working mom with young children, April put herself through college and law school. ", has the drive and determination needed to create real change in our country!
+CR02722862343422738433,$T$ believes in smaller government and personal responsibility Donate to the Official Website for Herschel Walker for United States Senate Today!,WMPID4511,0,15,ad_text,1268,1,Herschel Walker,"", believes in smaller government and personal responsibility Donate to the Official Website for Herschel Walker for United States Senate Today!
+CR02722862343422738433,Herschel Walker believes in smaller government and personal responsibility Donate to the Official Website for $T$ for United States Senate Today!,WMPID4511,110,125,ad_text,1268,1,Herschel Walker,Herschel Walker believes in smaller government and personal responsibility Donate to the Official Website for , for United States Senate Today!
+CR02865007069222666241,It's time to focus on the hard-working families in Connecticut and end the D.C. power grab $T$ is the Republican leadership Washington and Connecticut need. Donate today!,WMPID1668,91,103,ad_text,402,1,George Logan,It's time to focus on the hard-working families in Connecticut and end the D.C. power grab , is the Republican leadership Washington and Connecticut need. Donate today!
+CR02994214322734891009,Congressman $T$ is here to serve you.,WMPID1228,12,27,ad_text,1183,1,William Timmons,Congressman , is here to serve you.
+CR03099536816437460993,$T$ voted for massive government spending & violated stock trade & tax rules.,WMPID800,0,14,ad_text,125,-1,Brad Schneider,"", voted for massive government spending & violated stock trade & tax rules.
+CR03130322317381468161,Ultra-MAGA $T$ is Trump's biggest ally. She's undermining our democracy.,WMPID918,11,25,ad_text,344,-1,Elise Stefanik,Ultra-MAGA , is Trump's biggest ally. She's undermining our democracy.
+CR03273469729066450945,$T$ has a proven record of fighting for stronger border security. Let's fight crime and protect American workers and families. Finish the wall. Donate now!,WMPID1184,0,14,ad_text,1192,1,Yvette Herrell,"", has a proven record of fighting for stronger border security. Let's fight crime and protect American workers and families. Finish the wall. Donate now!
+CR03380013161712189441,$T$ is a Black conservative Veteran who will fight for free speech. Chip in now.,WMPID84,0,11,ad_text,568,1,Joe Collins,"", is a Black conservative Veteran who will fight for free speech. Chip in now.
+CR03393118790559465473,We can’t trust $T$ to uphold American values.,WMPID2908,15,27,ad_text,654,-1,Kelly Cooper,We can’t trust , to uphold American values.
+CR03668076961852293121,$T$ is a common-sense problem-solver who will fight for West Michigan.,WMPID338,0,16,ad_text,444,1,Hillary Scholten,"", is a common-sense problem-solver who will fight for West Michigan.
+CR03695691196383887361,$T$ the proven voice for Virginia's 1st district.,WMPID1266,0,11,ad_text,974,1,Rob Wittman,"", the proven voice for Virginia's 1st district.
+CR03905748494823981057,"$T$ has told Wisconsin women seeking abortion care, “you can move.”",WMPID1450,0,11,ad_text,1387,-1,Ron Johnson,""," has told Wisconsin women seeking abortion care, “you can move.”"
+CR03915792602263191553,Congresswoman $T$ doesn't take money from Super PACs or special interests.,WMPID1157,14,18,ad_text,452,1,Ilhan Omar,Congresswoman , doesn't take money from Super PACs or special interests.
+CR03985302559140085761,Rep. $T$ is a conservative leader who will get things done. Join Team Jordan.,WMPID1006,5,11,ad_text,554,1,Jim Jordan,Rep. , is a conservative leader who will get things done. Join Team Jordan.
+CR03997559571169148929,Evan is running for Senate to give Utah an independent voice. Support his campaign today.Evan McMullin for SenateHelp Evan Fight for UtahSend $30 to Evan McMullinDonate & Replace $T$,WMPID1445,179,187,ad_text,1356,-1,Mike Lee,Evan is running for Senate to give Utah an independent voice. Support his campaign today.Evan McMullin for SenateHelp Evan Fight for UtahSend $30 to Evan McMullinDonate & Replace ,""
+CR04133562906052657153,$T$ supports a total abortion ban with no exceptions. Stop him.,WMPID3907,0,13,ad_text,1208,-1,Blake Masters,"", supports a total abortion ban with no exceptions. Stop him.
+CR04207562306344714241,Help Charles build a grassroots movement to deliver a New Deal for Kentucky families. Let's retire $T$ and elect a real champion who will fight for Kentucky. Donate now.,WMPID1357,99,108,ad_text,1376,-1,Rand Paul,Help Charles build a grassroots movement to deliver a New Deal for Kentucky families. Let's retire , and elect a real champion who will fight for Kentucky. Donate now.
+CR04367480431449210881,"With $T$, Pelosi, and Cindy Axne in charge, the economy keeps getting worse.",WMPID1289,5,10,ad_text,1437,-1,Joe Biden,With ,", Pelosi, and Cindy Axne in charge, the economy keeps getting worse."
+CR04367480431449210881,"With Biden, $T$, and Cindy Axne in charge, the economy keeps getting worse.",WMPID1052,12,18,ad_text,875,-1,Nancy Pelosi,"With Biden, ",", and Cindy Axne in charge, the economy keeps getting worse."
+CR04367480431449210881,"With Biden, Pelosi, and $T$ in charge, the economy keeps getting worse.",WMPID1103,24,34,ad_text,212,-1,Cindy Axne,"With Biden, Pelosi, and "," in charge, the economy keeps getting worse."
+CR04514769084960735233,"Higher taxes, higher gas prices, fewer taxpayer rights. We can’t afford $T$.",WMPID4191,72,86,ad_text,1185,-1,Yadira Caraveo,"Higher taxes, higher gas prices, fewer taxpayer rights. We can’t afford ",.
+CR04737736848934174721,$T$ voted for the Women's Health Protection Act to safeguard abortion rights.,WMPID1302,0,10,ad_text,1337,1,Mark Kelly,"", voted for the Women's Health Protection Act to safeguard abortion rights.
+CR05049459115647041537,$T$ is fighting back against efforts to ban abortion nationwide.,WMPID1003,0,9,ad_text,1086,1,Susie Lee,"", is fighting back against efforts to ban abortion nationwide.
+CR05368503580045082625,$T$ proposed that people living with HIV be required to get a tattoo.,WMPID322,0,12,ad_text,886,-1,Neil Parrott,"", proposed that people living with HIV be required to get a tattoo.
+CR05504974963284639745,$T$ charged AK taxpayers for her move from DC to Anchorage without paying them back.,WMPID4671,0,8,ad_text,1310,-1,Kelly Tshibaka,"", charged AK taxpayers for her move from DC to Anchorage without paying them back.
+CR05540204209191780353,Support leaders who will fight for better border security. Chip in to $T$ now!,WMPID1184,70,84,ad_text,1192,1,Yvette Herrell,Support leaders who will fight for better border security. Chip in to , now!
+CR05545167404679561217,Help bring fiscal responsibility and conservative values back to Washington. Please support $T$ for Congress by making a donation of $10 or more now!,WMPID271,92,101,ad_text,51,1,Andy Barr,Help bring fiscal responsibility and conservative values back to Washington. Please support , for Congress by making a donation of $10 or more now!
+CR05580474853351227393,Learn About $T$ vs. Scott Baugh for Congress in District 47,WMPID1069,12,24,ad_text,647,0,Katie Porter,Learn About , vs. Scott Baugh for Congress in District 47
+CR05580474853351227393,Learn About Katie Porter vs. $T$ for Congress in District 47,WMPID2130,29,40,ad_text,1035,0,Scott Baugh,Learn About Katie Porter vs. , for Congress in District 47
+CR05713015276363055105,$T$ is 100% committed to Conservative Values and fighting for truth in the Senate.,WMPID1450,0,11,ad_text,1387,1,Ron Johnson,"", is 100% committed to Conservative Values and fighting for truth in the Senate.
+CR05734802580303773697,Dr. $T$ is coming up on his final goal of the campaign and needs you. Rush support Today.,WMPID1790,4,6,ad_text,1346,1,Mehmet Oz,Dr. , is coming up on his final goal of the campaign and needs you. Rush support Today.
+CR05758213313162903553,President $T$ has endorsed Henry McMaster's re-election for Governor of South Carolina.Critical FEC Deadline NowAboutContactDonor Support,WMPID1290,10,15,ad_text,1438,1,Donald Trump,President , has endorsed Henry McMaster's re-election for Governor of South Carolina.Critical FEC Deadline NowAboutContactDonor Support
+CR06153390299130363905,Kids Guide to $T$,WMPID1290,14,26,ad_text,1438,1,Donald Trump,Kids Guide to ,""
+CR06684125042894176257,Vote early for $T$ for Congress.,WMPID3752,15,33,ad_text,192,1,Christina Bohannan,Vote early for , for Congress.
+CR07451921640432074753,$T$ has President Trump’s Complete and Total Endorsement! Join Team Herschel,WMPID4511,0,15,ad_text,1268,1,Herschel Walker,"", has President Trump’s Complete and Total Endorsement! Join Team Herschel
+CR07672267962526466049,$T$ broke his promise to Mainers. Get the facts.,WMPID1147,0,12,ad_text,494,-1,Jared Golden,"", broke his promise to Mainers. Get the facts.
+CR07879405301680570369,Every dollar counts in the race to defeat $T$. Donate to Val Demings now.Val Demings for SenateCommonsense Gun ReformEndorse Val Demings (D)Donate to Val DemingsKeep the Senate blue,WMPID1321,42,53,ad_text,1333,-1,Marco Rubio,Every dollar counts in the race to defeat ,. Donate to Val Demings now.Val Demings for SenateCommonsense Gun ReformEndorse Val Demings (D)Donate to Val DemingsKeep the Senate blue
+CR07879405301680570369,Every dollar counts in the race to defeat Marco Rubio. Donate to $T$ now.Val Demings for SenateCommonsense Gun ReformEndorse Val Demings (D)Donate to Val DemingsKeep the Senate blue,WMPID787,65,76,ad_text,1425,1,Val Demings,Every dollar counts in the race to defeat Marco Rubio. Donate to , now.Val Demings for SenateCommonsense Gun ReformEndorse Val Demings (D)Donate to Val DemingsKeep the Senate blue
+CR07879405301680570369,Every dollar counts in the race to defeat Marco Rubio. Donate to Val Demings now.$T$ for SenateCommonsense Gun ReformEndorse Val Demings (D)Donate to Val DemingsKeep the Senate blue,WMPID787,81,92,ad_text,1425,1,Val Demings,Every dollar counts in the race to defeat Marco Rubio. Donate to Val Demings now., for SenateCommonsense Gun ReformEndorse Val Demings (D)Donate to Val DemingsKeep the Senate blue
+CR07879405301680570369,Every dollar counts in the race to defeat Marco Rubio. Donate to Val Demings now.Val Demings for SenateCommonsense Gun ReformEndorse $T$ (D)Donate to Val DemingsKeep the Senate blue,WMPID787,133,144,ad_text,1425,1,Val Demings,Every dollar counts in the race to defeat Marco Rubio. Donate to Val Demings now.Val Demings for SenateCommonsense Gun ReformEndorse , (D)Donate to Val DemingsKeep the Senate blue
+CR08085077747749093377,"It’s Marco. I am fighting for the American Dream, but I can’t do it without you. Prove you’re a top conservative by endorsing $T$ now!",WMPID1321,126,137,ad_text,1333,1,Marco Rubio,"It’s Marco. I am fighting for the American Dream, but I can’t do it without you. Prove you’re a top conservative by endorsing ", now!
+CR08321766523483979777,$T$ is the only Senator up for reelection who voted to overturn the 2020 election,WMPID1481,0,12,ad_text,1296,-1,John Kennedy,"", is the only Senator up for reelection who voted to overturn the 2020 election
+CR08642475373608566785,Tim Ryan loves $T$. He also loves Pelosi and Biden’s ultra-liberal agenda.,WMPID1052,15,27,ad_text,875,-1,Nancy Pelosi,Tim Ryan loves ,. He also loves Pelosi and Biden’s ultra-liberal agenda.
+CR08642475373608566785,Tim Ryan loves Nancy Pelosi. He also loves $T$ and Biden’s ultra-liberal agenda.,WMPID1052,43,49,ad_text,875,-1,Nancy Pelosi,Tim Ryan loves Nancy Pelosi. He also loves , and Biden’s ultra-liberal agenda.
+CR08642475373608566785,Tim Ryan loves Nancy Pelosi. He also loves Pelosi and $T$’s ultra-liberal agenda.,WMPID1289,54,59,ad_text,1437,-1,Joe Biden,Tim Ryan loves Nancy Pelosi. He also loves Pelosi and ,’s ultra-liberal agenda.
+CR08971441556057751553,DeVos blames $T$ for Jan 6th but then supports Dixon's statement. What is her position?,WMPID1290,13,18,ad_text,1438,-1,Donald Trump,DeVos blames , for Jan 6th but then supports Dixon's statement. What is her position?
+CR08974361858941124609,$T$ has spent his life fighting to build a better New York City and America.,WMPID1191,0,8,ad_text,798,1,Max Rose,"", has spent his life fighting to build a better New York City and America.
+CR09080361102050590721,$T$ and Bill Foster got us in this mess. Catalina Lauf will get us out.,WMPID1289,0,9,ad_text,1437,-1,Joe Biden,"", and Bill Foster got us in this mess. Catalina Lauf will get us out.
+CR09080361102050590721,Joe Biden and $T$ got us in this mess. Catalina Lauf will get us out.,WMPID1115,14,25,ad_text,106,-1,Bill Foster,Joe Biden and , got us in this mess. Catalina Lauf will get us out.
+CR09080361102050590721,Joe Biden and Bill Foster got us in this mess. $T$ will get us out.,WMPID2076,47,60,ad_text,171,1,Catalina Lauf,Joe Biden and Bill Foster got us in this mess. , will get us out.
+CR09127378486997024769,$T$ & the national GOP have called out Michael by name and are targeting Colorado Republicans in Washington are trying to flip this seat: donate now to help us hold it,WMPID1529,0,10,ad_text,1381,-1,Rick Scott,"", & the national GOP have called out Michael by name and are targeting Colorado Republicans in Washington are trying to flip this seat: donate now to help us hold it
+CR09409847628377620481,$T$ is counting on grassroots donations to win this Senate race. Give today.,WMPID787,0,11,ad_text,1425,1,Val Demings,"", is counting on grassroots donations to win this Senate race. Give today.
+CR09424316101887524865,Vote to protect abortion access. Vote for $T$.,WMPID1516,42,64,ad_text,1220,1,Catherine Cortez Masto,Vote to protect abortion access. Vote for ,.
+CR09554153031965081601,$T$ is not on the side of Hudson Valley families.,WMPID3771,0,13,ad_text,225,-1,Colin Schmitt,"", is not on the side of Hudson Valley families.
+CR10119517031884652545,$T$ is running for Senate to stop the Democrat agenda and save the American Dream.,WMPID1495,0,9,ad_text,1415,1,Tim Scott,"", is running for Senate to stop the Democrat agenda and save the American Dream.
+CR10254694770974654465,Gun grabbers like $T$ want to keep you from protecting your family.,WMPID1330,18,33,ad_text,1377,-1,Raphael Warnock,Gun grabbers like , want to keep you from protecting your family.
+CR10297296998260277249,La'Ron $T$ celebrated overturning Roe and would support a nationwide abortion ban.,WMPID4247,7,17,ad_text,680,-1,La'Ron Desmond Singletary,La'Ron , celebrated overturning Roe and would support a nationwide abortion ban.
+CR10420631966326980609,$T$ is dedicated to America’s middle class,WMPID897,0,5,ad_text,1128,1,Tom Emmer,"", is dedicated to America’s middle class
+CR10453274267532394497,"$T$ supported banning abortion, with no exceptions for rape or incest.",WMPID1405,0,10,ad_text,1250,-1,Don Bolduc,""," supported banning abortion, with no exceptions for rape or incest."
+CR10595725619637518337,Make a plan to vote for $T$.,WMPID1269,24,42,ad_text,5,1,Abigail Spanberger,Make a plan to vote for ,.
+CR10680386090830921729,$T$ is running for Senate in the #1 battleground race in America. Chip-in now!Chip-in $25 Right NowChip-in $50 Right NowChip-in $250 Right NowChip-in $100 Right Now,WMPID2987,0,11,ad_text,1197,1,Adam Laxalt,"", is running for Senate in the #1 battleground race in America. Chip-in now!Chip-in $25 Right NowChip-in $50 Right NowChip-in $250 Right NowChip-in $100 Right Now
+CR10774073277610459137,Republican candidate $T$ wanted a national abortion BAN. He's too extreme for AZ,WMPID3907,21,34,ad_text,1208,-1,Blake Masters,Republican candidate , wanted a national abortion BAN. He's too extreme for AZ
+CR10850297402242367489,$T$ is fighting to protect 5 critical House seats and our entire Majority. Keep up the fight and help Nancy hold our Democratic House.,WMPID1052,0,12,ad_text,875,1,Nancy Pelosi,"", is fighting to protect 5 critical House seats and our entire Majority. Keep up the fight and help Nancy hold our Democratic House.
+CR10939034999990517761,$T$ is running to represent you and the Third Congressional District of Minnesota,WMPID4223,0,10,ad_text,1135,1,Tom Weiler,"", is running to represent you and the Third Congressional District of Minnesota
+CR11096275058367135745,"Prove you’re a top conservative by endorsing $T$ now! It’s Marco. I am fighting for the American Dream, but I can’t do it without you.",WMPID1321,45,56,ad_text,1333,1,Marco Rubio,Prove you’re a top conservative by endorsing ," now! It’s Marco. I am fighting for the American Dream, but I can’t do it without you."
+CR11123372728592105473,$T$ has made it his mission to make our country safer and stronger.,WMPID1505,0,10,ad_text,1418,1,Todd Young,"", has made it his mission to make our country safer and stronger.
+CR11367138579638648833,We must fire $T$,WMPID1072,13,23,ad_text,853,-1,Mike Levin,We must fire ,""
+CR11469341552694788097,$T$ is a born-and-raised Coloradan with a record of winning tough races.,WMPID2090,0,18,ad_text,145,1,Brittany Louise Pettersen,"", is a born-and-raised Coloradan with a record of winning tough races.
+CR11519657609963503617,$T$ voted to ban abortion in Montana — we have to vote by November 8th to beat him.,WMPID2527,0,10,ad_text,1022,-1,Ryan Zinke,"", voted to ban abortion in Montana — we have to vote by November 8th to beat him.
+CR11658479749063245825,Rising crime. Petty theft. Home break-ins. Stolen cars. Where is $T$?,WMPID1223,65,75,ad_text,1085,-1,Susan Wild,Rising crime. Petty theft. Home break-ins. Stolen cars. Where is ,?
+CR11663324197295226881,Fight for a woman’s right to choose. Vote for $T$ for Senate.,WMPID1302,46,56,ad_text,1337,1,Mark Kelly,Fight for a woman’s right to choose. Vote for , for Senate.
+CR12039033367820238849,"$T$ said ""maybe we should privatize Social Security, right?"" Learn more.",WMPID3907,0,13,ad_text,1208,-1,Blake Masters,""," said ""maybe we should privatize Social Security, right?"" Learn more."
+CR12128397824635174913,National Security Prosecutor $T$ (D) is running to unseat Ken Calvert in CA-41,WMPID4731,29,41,ad_text,1181,1,Will Rollins,National Security Prosecutor , (D) is running to unseat Ken Calvert in CA-41
+CR12128397824635174913,National Security Prosecutor Will Rollins (D) is running to unseat $T$ in CA-41,WMPID781,67,78,ad_text,657,-1,Ken Calvert,National Security Prosecutor Will Rollins (D) is running to unseat , in CA-41
+CR12433968323790635009,$T$ raised your taxes when you can least afford it. Learn the truth.,WMPID827,0,20,ad_text,1050,-1,Sean Patrick Maloney,"", raised your taxes when you can least afford it. Learn the truth.
+CR12755697795583705089,$T$ is the leader we need to fix our economy and cut inflation,WMPID848,0,11,ad_text,948,1,Randy Weber,"", is the leader we need to fix our economy and cut inflation
+CR13290421911130472449,"As PA's next senator, $T$ will defend union rights and women's rights.",WMPID2065,22,36,ad_text,1295,1,John Karl Fetterman,"As PA's next senator, ", will defend union rights and women's rights.
+CR13391006609228955649,Help Buddy $T$ defeat Nancy Pelosi and take back the House!,WMPID882,11,17,ad_text,152,1,Buddy Carter,Help Buddy , defeat Nancy Pelosi and take back the House!
+CR13391006609228955649,Help Buddy Carter defeat $T$ and take back the House!,WMPID1052,25,37,ad_text,875,-1,Nancy Pelosi,Help Buddy Carter defeat , and take back the House!
+CR13549029519884550145,$T$ is working on fair gas prices for Arizonans so families can get back on track.,WMPID1302,0,10,ad_text,1337,1,Mark Kelly,"", is working on fair gas prices for Arizonans so families can get back on track.
+CR13634529743083667457,$T$ is a Tax & Spend liberal - he’ll raise taxes on hard working Americans.,WMPID4650,0,14,ad_text,1330,-1,Mandela Barnes,"", is a Tax & Spend liberal - he’ll raise taxes on hard working Americans.
+CR13748540096632586241,Stay Connected with U.S. Representative $T$ and his work representing SC-02,WMPID840,40,50,ad_text,572,1,Joe Wilson,Stay Connected with U.S. Representative , and his work representing SC-02
+CR13976503148089442305,Marshall sued $T$ to prohibit government entities from requiring proof of vaccination.,WMPID1289,14,19,ad_text,1437,-1,Joe Biden,Marshall sued , to prohibit government entities from requiring proof of vaccination.
+CR14523788084471922689,$T$ is fighting to create jobs & lower prices for Illinois families,WMPID1111,0,11,ad_text,1049,1,Sean Casten,"", is fighting to create jobs & lower prices for Illinois families
+CR14707170406188449793,Rising crime. Petty theft. Home break-ins. Stolen cars. Where is $T$?,WMPID945,65,79,ad_text,1133,-1,Tom O'Halleran,Rising crime. Petty theft. Home break-ins. Stolen cars. Where is ,?
+CR14891090938846773249,"$T$ is a mom, law professor, state representative, and former engineer.",WMPID3752,0,18,ad_text,192,1,Christina Bohannan,""," is a mom, law professor, state representative, and former engineer."
+CR14923906138255654913,Rising crime. Petty theft. Home break-ins. Stolen cars. Where is $T$?,WMPID1103,65,75,ad_text,212,-1,Cindy Axne,Rising crime. Petty theft. Home break-ins. Stolen cars. Where is ,?
+CR15022586757092737025,"$T$ has lied to us about how corrupt he is, and now he's lied to federal investigators.",WMPID2527,0,5,ad_text,1022,-1,Ryan Zinke,""," has lied to us about how corrupt he is, and now he's lied to federal investigators."
+CR15197939620269522945,The majority of Wisconsin supports the right to choose. $T$ will protect that right.,WMPID2029,56,63,ad_text,65,1,Ann Roe,The majority of Wisconsin supports the right to choose. , will protect that right.
+CR15313882021906874369,"As an Emergency Room doctor, $T$ cares deeply about the health of our communities.",WMPID780,29,33,ad_text,951,1,Raul Ruiz,"As an Emergency Room doctor, ", cares deeply about the health of our communities.
+CR15676000678956761089,$T$ passed a plan to cap the monthly cost of insulin at $35.,WMPID991,0,11,ad_text,61,1,Angie Craig,"", passed a plan to cap the monthly cost of insulin at $35.
+CR15781682438083706881,$T$ Will Fight For Special Interests Spending Millions On His Behalf -- Not Us.,WMPID363,0,7,ad_text,1152,-1,Tyler Kistner,"", Will Fight For Special Interests Spending Millions On His Behalf -- Not Us.
+CR15914901465928302593,"$T$ forgave up to $20,000 for eligible student borrowers.Application InformationImpact of Cancelling DebtStudent Loans Added toVolunteer OpportunitiesSupporting Veterans",WMPID1289,0,5,ad_text,1437,1,Joe Biden,""," forgave up to $20,000 for eligible student borrowers.Application InformationImpact of Cancelling DebtStudent Loans Added toVolunteer OpportunitiesSupporting Veterans"
+CR16327252205046333441,Donate now to stand with $T$ and stop the Democrats’ failed Socialist agenda.,WMPID273,25,38,ad_text,1074,1,Steve Scalise,Donate now to stand with , and stop the Democrats’ failed Socialist agenda.
+CR16486609235623280641,Join $T$ campaign to Defeat Ilhan Omar in 2022,WMPID4126,5,18,ad_text,211,1,Cicely Davis,Join , campaign to Defeat Ilhan Omar in 2022
+CR16552013272484675585,$T$ is running for re-election in Illinois' 11th Congressional District. Chip in!,WMPID1115,0,11,ad_text,106,1,Bill Foster,"", is running for re-election in Illinois' 11th Congressional District. Chip in!
+CR17246310060326387713,"Help Preserve President $T$'s Legacy for Kids with The Kids Guide to President Trump. Free Kids Guide to Trump, as Part of This Special Offer. Hurry - Supplies Limited. Act Now",WMPID1290,24,29,ad_text,1438,1,Donald Trump,Help Preserve President ,"'s Legacy for Kids with The Kids Guide to President Trump. Free Kids Guide to Trump, as Part of This Special Offer. Hurry - Supplies Limited. Act Now"
+CR17246310060326387713,"Help Preserve President Trump's Legacy for Kids with The Kids Guide to President $T$. Free Kids Guide to Trump, as Part of This Special Offer. Hurry - Supplies Limited. Act Now",WMPID1290,81,86,ad_text,1438,1,Donald Trump,Help Preserve President Trump's Legacy for Kids with The Kids Guide to President ,". Free Kids Guide to Trump, as Part of This Special Offer. Hurry - Supplies Limited. Act Now"
+CR17246310060326387713,"Help Preserve President Trump's Legacy for Kids with The Kids Guide to President Trump. Free Kids Guide to $T$, as Part of This Special Offer. Hurry - Supplies Limited. Act Now",WMPID1290,107,112,ad_text,1438,1,Donald Trump,Help Preserve President Trump's Legacy for Kids with The Kids Guide to President Trump. Free Kids Guide to ,", as Part of This Special Offer. Hurry - Supplies Limited. Act Now"
+CR17318428058784366593,$T$'s anti-choice extremism is wrong for PA,WMPID571,0,8,ad_text,711,-1,Lisa Scheller,"",'s anti-choice extremism is wrong for PA
+CR17360451942953779201,$T$ will deliver for our community.,WMPID2153,0,12,ad_text,352,1,Emilia Sykes,"", will deliver for our community.
+CR17499777108623228929,Far-Left $T$ proud of releasing a record number of felons from prison early.,WMPID2065,9,25,ad_text,1295,-1,John Karl Fetterman,Far-Left , proud of releasing a record number of felons from prison early.
+CR17621718445701726209,$T$ endorsed an abortion ban with no exceptions for rape or incest.,WMPID2001,0,14,ad_text,768,-1,Mark Robertson,"", endorsed an abortion ban with no exceptions for rape or incest.
+CR17777699013508726785,$T$ is the only woman in this race.,WMPID1057,0,10,ad_text,66,1,Anna Eshoo,"", is the only woman in this race.
+CR18006982372272111617,$T$ holds dangerous far-right views,WMPID4736,0,10,ad_text,583,-1,John Gibbs,"", holds dangerous far-right views
+CR18162314228218724353,Phony Politician $T$ accepted nearly $1.5M campaign cash from special interests.,WMPID3297,17,30,ad_text,1224,-1,Cheri Beasley,Phony Politician , accepted nearly $1.5M campaign cash from special interests.
+CR18162793340410527745,All eyes are on PA! Republican $T$ can flip PA-07 red. Help her chip in $10 now,WMPID571,31,44,ad_text,711,1,Lisa Scheller,All eyes are on PA! Republican , can flip PA-07 red. Help her chip in $10 now
+CR00728345708016435201,PLANNED. PARENTHOOD. ACTION FUND. ENDORSES $T$. DONATE NOW ,WMPID70,43,54,ocr,9,1,Adam Schiff,PLANNED. PARENTHOOD. ACTION FUND. ENDORSES ,. DONATE NOW 
+CR00782689413816647681,Where Should $T$'S BUSES. OF ILLEGAL IMMIGRANTS. BE SENT?. TAKE THE SURVEY. PAID FOR BY FRIENDS OF RON DESANTIS ,WMPID1289,13,18,ocr,1437,-1,Joe Biden,Where Should ,'S BUSES. OF ILLEGAL IMMIGRANTS. BE SENT?. TAKE THE SURVEY. PAID FOR BY FRIENDS OF RON DESANTIS 
+CR00878279511626481665,FLASH POLL. .... DO YOU. APPROVE. OF $T$?. TELL US HERE ,WMPID1289,37,46,ocr,1437,-1,Joe Biden,FLASH POLL. .... DO YOU. APPROVE. OF ,?. TELL US HERE 
+CR02136179431515881473,CITY BEACH!. DON'T LET $T$ LIE ABOUT FLORIDA. STAND WITH GOV. DESANTIS.. DESANTIS. DESANTIS. DRESDOM. LOTTE -. STAND FOR FREEDOM.. HANDS. DESA. ADD YOUR NAME. DOLLAR. SPONSORED BY FRIENDS OF RON DESANTIS. SHOULD ,WMPID1289,23,28,ocr,1437,-1,Joe Biden,CITY BEACH!. DON'T LET , LIE ABOUT FLORIDA. STAND WITH GOV. DESANTIS.. DESANTIS. DESANTIS. DRESDOM. LOTTE -. STAND FOR FREEDOM.. HANDS. DESA. ADD YOUR NAME. DOLLAR. SPONSORED BY FRIENDS OF RON DESANTIS. SHOULD 
+CR02192949896917549057,$T$. for. US CONGRESS. Raid. for by l Erik. Oleen. WA ,WMPID4549,0,5,ocr,364,1,Erik Olsen,"",. for. US CONGRESS. Raid. for by l Erik. Oleen. WA 
+CR03878009465722634241,MARCO RUBIO'S. ENDORSEMENTS. DESANTIS. POMPEO. $T$. MISSING: YOU!. HALEY. ENDORSE MARCO». PAID FOR BY MARCO RUBIO FOR SENATE ,WMPID1290,47,52,ocr,1438,1,Donald Trump,MARCO RUBIO'S. ENDORSEMENTS. DESANTIS. POMPEO. ,. MISSING: YOU!. HALEY. ENDORSE MARCO». PAID FOR BY MARCO RUBIO FOR SENATE 
+CR03878009465722634241,marc. O. rubio. US SENATE $T$,WMPID1290,47,52,ocr,1438,1,Donald Trump,marc. O. rubio. US SENATE ,""
+CR05799179604585349121,POLL: Should $T$ Resign?. Yes or No? ,WMPID1289,13,22,ocr,1437,-1,Joe Biden,POLL: Should , Resign?. Yes or No? 
+CR10065435078571327489,CITY BEACH!. DON'T LET $T$ LIE ABOUT FLORIDA. STAND WITH GOV. DESANTIS.. DESANTIS. DESANTIS. DRESDOM. LOTTE -. STAND FOR FREEDOM.. HANDS. DESA. ADD YOUR NAME. DOLLAR. SPONSORED BY FRIENDS OF RON DESANTIS. SHOULD ,WMPID1289,23,28,ocr,1437,-1,Joe Biden,CITY BEACH!. DON'T LET , LIE ABOUT FLORIDA. STAND WITH GOV. DESANTIS.. DESANTIS. DESANTIS. DRESDOM. LOTTE -. STAND FOR FREEDOM.. HANDS. DESA. ADD YOUR NAME. DOLLAR. SPONSORED BY FRIENDS OF RON DESANTIS. SHOULD 
+CR10257715129416155137,RAND. LIBERTY. FOR ALL. STAND WITH RAND. PAID FOR BY $T$ FOR US SENATE ,WMPID1357,53,62,ocr,1376,1,Rand Paul,RAND. LIBERTY. FOR ALL. STAND WITH RAND. PAID FOR BY , FOR US SENATE 
