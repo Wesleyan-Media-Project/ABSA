@@ -5,14 +5,11 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(R.utils)
-library(tidyverse)
 
 # Input paths
 path_intermediary_1 <- "../entity_linking_2022/google/data/entity_linking_results_google_2022.csv.gz"
 # Output paths
 path_prepared_for_absa <- "data/google2022_prepared_for_ABSA.csv"
-
-
 
 df <- fread(path_intermediary_1, encoding = "UTF-8", data.table = F)
 
@@ -49,6 +46,5 @@ df3$chunk1 <- substr(df3$text, 1, df3$start)
 df3$chunk2 <- substr(df3$text, df3$end+1, nchar(df3$text))
 df3$text <- paste0(df3$chunk1, "$T$", df3$chunk2)
 df4 <- select(df3, -c(chunk1, chunk2))
-
 
 fwrite(df4, path_prepared_for_absa)
