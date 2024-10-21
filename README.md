@@ -82,10 +82,12 @@ Note: If you want to use the pre-trained model we provide, you can find it [here
 To run the inference scripts, you need to first train a model for sentiment analysis. The script `train/01_prepare_separate_generic_absa.R` is used for this model training. The data you need to run this are:
 
 - [`entity_linking/facebook/data/entity_linking_results_140m_notext_new.csv.gz`](https://github.com/Wesleyan-Media-Project/entity_linking/blob/main/facebook/data/entity_linking_results_140m_notext_new.csv.gz)
-- [`fb_2020/fb_2020_140m_adid_text_clean.csv.gz`](https://figshare.wesleyan.edu/account/articles/26093257)
 - [`datasets/facebook/FBEL_2.0_cleanednoICR_041222.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/facebook/FBEL_2.0_cleanednoICR_041222.csv)
 - [`datasets/candidates/face_url_candidate.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/candidates/face_url_candidate.csv)
 - [`datasets/candidates/face_url_politician.csv`](https://github.com/Wesleyan-Media-Project/datasets/blob/main/candidates/face_url_politician.csv)
+- `fb_2020/fb_2020_140m_adid_text_clean.csv.gz`
+
+Note that `fb_2020/fb_2020_140m_adid_text_clean.csv.gz` is not currently publicly accessible, but will be made available when ready. 
 
 To train the model to detect sentiment even for entities that aren't seen (or rarely seen) in the training set, the data is set up as following: The specific name of the detected entity is replaced by `$T$` (this is the same way it works in [this](https://github.com/songyouwei/ABSA-PyTorch) repo). This way, the model learns that the output label is based on text that relates to the `$T$`. In theory, a neural-based classifier should be much better at this than a bag-of-words model, but in practice, the latter works well enough. We saw a big difference with a model that only learned and detected sentiment for Trump and Biden - the neural approach was much better here - but for a model targeted at any generic candidate, the bag of words model has results that are comparably good.
 
