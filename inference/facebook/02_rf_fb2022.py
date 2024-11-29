@@ -20,6 +20,9 @@ predicted = text_clf.predict(df_inf['text'])
 
 df_inf['predicted_sentiment'] = predicted
 
+# Exclude George Washington from results because entity linking might interpret Washington DC as George Washington
+df_inf = df_inf[df_inf['text_detected_entities'] != 'WMPID5206']
+
 # Save without text column
 df_inf = df_inf.drop(columns = 'text')
 df_inf.to_csv(path_predictions, index = False)

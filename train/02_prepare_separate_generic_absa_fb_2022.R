@@ -13,14 +13,14 @@ path_el_results_with_text <- "../entity_linking_2022/facebook/data/entity_linkin
 
 # output from fb_2022 repo 
 path_ad_text <- "../data_post_production/fb_2022_adid_text.csv.gz"
-path_fbel <- "../datasets/facebook/fb_2022_train.xlsx"
+path_fbel <- "../datasets/facebook/fb_2022_train_092924.dta"
 path_person <- "../datasets/people/person_2024_cd030124.csv"
 path_cands <- "../datasets/candidates/face_url_candidate.csv"
 path_pols <- "../datasets/candidates/face_url_politician.csv"
 # Intermediary files
 
 # output from data repo
-path_intermediary_1 <- "data/intermediate_separate_generic_absa_fb2022.rdata" #
+path_intermediary_1 <- "data/intermediate_separate_generic_absa_fb2022.rdata" # Note: used as an input in inference
 path_intermediary_2 <- "data/intermediate_separate_generic_absa_training_data_fb2022.rdata"
 # Output files
 path_output_train <- "data/generic_separate_absa_fbtrain22.csv"
@@ -39,10 +39,8 @@ text <- text %>% rename(ocr = aws_ocr_text)
 text <- text %>% rename(asr = google_asr_text)
 text <- text %>% select(-c(ad_snapshot_url, ad_creative_bodies, ad_creative_bodies,
                            ad_creative_link_titles, ad_creative_link_descriptions,
-                           aws_ocr_text_img, aws_ocr_text_vid, aws_status_img,
-                           aws_status_vid, product_brand, product_name, 
-                           product_description, ad_creative_link_captions,
-                           google_asr_status))
+                           aws_ocr_text_img, aws_ocr_text_vid, 
+                           ad_creative_link_captions, checksum))
 
 # Read entity linking results
 el_results <- read_csv(path_el_results_with_text)
@@ -130,7 +128,7 @@ rm(list = ls()[!ls() %in% paths])
 
 ####Create Training Data####
 # Load the dataset
-df <- read_excel(path_fbel)
+df <- read_dta(path_fbel)
 df$ad_id <- df$adid
 wmpid <- fread(path_person, data.table = F)
 
@@ -197,9 +195,9 @@ df_train$text <- str_remove_all(df_train$text, "\n")
 #df_train <- df_train[df_train$TONE != "",]
 
 ####Recode values 1,2,3 to -1,0,1####
-df_train$TONE[df_train$TONE == "In a way to show approval or support"] <- 1
-df_train$TONE[df_train$TONE == "In a way to show disaproval or opposition"] <- -1
-df_train$TONE[df_train$TONE == "Unclear whether support or opposition"] <- 0
+df_train$TONE[df_train$TONE == 1] <- 1
+df_train$TONE[df_train$TONE == 2] <- -1
+df_train$TONE[df_train$TONE == 3] <- 0
 
 # Split
 
